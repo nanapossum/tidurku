@@ -1,0 +1,974 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1688" height="3923" viewBox="0 0 1688 3923">
+<defs xmlns="http://www.w3.org/2000/svg"><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#1C103D" /><stop offset=".68" stop-color="#542184" /><stop offset="1" stop-color="#6632BC" /></linearGradient><linearGradient id="planet" x2=".8" y2="1"><stop stop-color="#FFA183" /><stop offset=".55" stop-color="#F52D91" /><stop offset="1" stop-color="#6632BC" /></linearGradient>
+    <linearGradient id="tracker-sky" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#1C103D" /><stop offset=".47" stop-color="#452479" /><stop offset=".78" stop-color="#A44999" /><stop offset="1" stop-color="#FFA183" />
+    </linearGradient>
+    <linearGradient id="tracker-moon" x2=".75" y2="1">
+      <stop stop-color="#F52D91" /><stop offset=".59" stop-color="#FF8AA0" /><stop offset="1" stop-color="#FFC75A" />
+    </linearGradient>
+    <clipPath id="tracker-screen"><rect width="390" height="844" rx="32" /></clipPath>
+  <linearGradient id="tracker-calm" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#352746" /><stop offset=".6" stop-color="#544563" /><stop offset="1" stop-color="#675572" /></linearGradient></defs>
+
+<rect x="0" y="0" width="1688" height="3923" rx="0" fill="#EDE3F8"/>
+<rect x="28" y="28" width="1632" height="160" rx="25" fill="url(#tracker-sky)"/>
+<text x="56" y="62" fill="#F2EAFF" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="800">TIDURKU  /  MALAM LAVENDER</text>
+<text x="54" y="108" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="43" font-weight="800">Komponen UI</text>
+<text x="56" y="148" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">47 contoh dan varian dari Dashboard Utama · tiap contoh mencatat layar dan props</text>
+<rect x="28" y="215" width="1632" height="660" rx="24" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="53" y="261" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="29" font-weight="800">Navigasi dan identitas</text>
+<g id="component-1" aria-label="TabBar · Dashboard">
+<rect x="52" y="284" width="386" height="203" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="307" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TabBar · Dashboard</text>
+<text x="66" y="330" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard, Riwayat, Wawasan</text>
+<text x="66" y="350" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: activeTab, onTabPress</text>
+<rect x="59" y="361" width="372" height="118" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 -356)">
+<path xmlns="http://www.w3.org/2000/svg" d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+
+<circle xmlns="http://www.w3.org/2000/svg" cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+
+</g>
+</g>
+<g id="component-2" aria-label="TabBar · Catat Tidur">
+<rect x="454" y="284" width="386" height="203" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="307" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TabBar · Catat Tidur</text>
+<text x="468" y="330" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Catat Tidur dan Catat Manual</text>
+<text x="468" y="350" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: activeTab, onTabPress</text>
+<rect x="461" y="361" width="372" height="118" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 -356)">
+<path xmlns="http://www.w3.org/2000/svg" d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="30" y="764" width="98" height="50" rx="16" fill="#F2EAFF" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#6632BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="79" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Catat Tidur</text>
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+
+<circle xmlns="http://www.w3.org/2000/svg" cx="195" cy="750" r="28" fill="#F2EAFF" stroke="#FFFFFF" stroke-width="3" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="805" fill="#6632BC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">Dashboard</text>
+
+</g>
+</g>
+<g id="component-3" aria-label="TabBar · Profil">
+<rect x="856" y="284" width="386" height="203" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="307" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TabBar · Profil</text>
+<text x="870" y="330" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Profil &amp; Pengingat</text>
+<text x="870" y="350" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: activeTab, onTabPress</text>
+<rect x="863" y="361" width="372" height="118" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 -356)">
+<path xmlns="http://www.w3.org/2000/svg" d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="262" y="764" width="98" height="50" rx="16" fill="#F2EAFF" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#6632BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="311" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Profil</text>
+
+<circle xmlns="http://www.w3.org/2000/svg" cx="195" cy="750" r="28" fill="#F2EAFF" stroke="#FFFFFF" stroke-width="3" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="805" fill="#6632BC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">Dashboard</text>
+
+</g>
+</g>
+<g id="component-4" aria-label="HeaderBar · Kembali">
+<rect x="1258" y="284" width="386" height="203" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="307" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">HeaderBar · Kembali</text>
+<text x="1272" y="330" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Riwayat, Detail, Ubah, Wawasan</text>
+<text x="1272" y="350" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, onBack, showBack</text>
+<rect x="1265" y="361" width="372" height="118" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1254.5 350)">
+<path xmlns="http://www.w3.org/2000/svg" d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="56" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Ubah sesi</text>
+
+</g>
+</g>
+<g id="component-5" aria-label="SegmentedControl · Ringkasan">
+<rect x="52" y="511" width="386" height="317" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="534" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">SegmentedControl · Ringkasan</text>
+<text x="66" y="557" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Ringkasan</text>
+<text x="66" y="577" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: options, value, onChange</text>
+<rect x="59" y="588" width="372" height="232" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 582)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="98" width="342" height="47" rx="22" fill="#F2EAFF" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="28" y="102" width="143" height="39" rx="19" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="99.5" y="127" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ringkasan</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="268.0" y="127" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Target &amp; Rekomendasi</text>
+
+</g>
+</g>
+<g id="component-6" aria-label="SegmentedControl · Target">
+<rect x="454" y="511" width="386" height="317" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="534" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">SegmentedControl · Target</text>
+<text x="468" y="557" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Target &amp; Rekomendasi</text>
+<text x="468" y="577" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: options, value, onChange</text>
+<rect x="461" y="588" width="372" height="232" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 582)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="98" width="342" height="47" rx="22" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="99.5" y="127" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ringkasan</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="174" y="102" width="188" height="39" rx="19" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="268.0" y="127" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Target &amp; Rekomendasi</text>
+
+</g>
+</g>
+<g id="component-7" aria-label="AuthIllustration">
+<rect x="856" y="511" width="386" height="317" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="534" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">AuthIllustration</text>
+<text x="870" y="557" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Masuk, Daftar, dan kondisi gagal</text>
+<text x="870" y="577" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: size, accessibilityLabel</text>
+<rect x="863" y="588" width="372" height="232" rx="12" fill="#FBF8FF"/>
+<g transform="translate(911.5 580)">
+<ellipse xmlns="http://www.w3.org/2000/svg" cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25" />
+      
+<path xmlns="http://www.w3.org/2000/svg" d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)" />
+      
+<g xmlns="http://www.w3.org/2000/svg" fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)" /><circle cx="84" cy="166" r="7" /><circle cx="155" cy="215" r="8" /></g>
+      
+<path xmlns="http://www.w3.org/2000/svg" d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC" />
+      
+<path xmlns="http://www.w3.org/2000/svg" d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF" />
+      
+<circle xmlns="http://www.w3.org/2000/svg" cx="174" cy="180" r="4" fill="#59DCE8" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="147" cy="188" r="3" fill="#6632BC" />
+      
+<path xmlns="http://www.w3.org/2000/svg" d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF" />
+      
+<path xmlns="http://www.w3.org/2000/svg" d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183" />
+      
+<ellipse xmlns="http://www.w3.org/2000/svg" cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF" />
+      
+<path xmlns="http://www.w3.org/2000/svg" d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      
+<ellipse xmlns="http://www.w3.org/2000/svg" cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA" />
+<ellipse xmlns="http://www.w3.org/2000/svg" cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA" />
+      
+<path xmlns="http://www.w3.org/2000/svg" d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A" />
+      
+<path xmlns="http://www.w3.org/2000/svg" d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8" />
+      
+<circle xmlns="http://www.w3.org/2000/svg" cx="242" cy="119" r="3" fill="#FFC75A" />
+    
+</g>
+</g>
+<g id="component-8" aria-label="WeekSelector">
+<rect x="1258" y="511" width="386" height="317" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="534" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">WeekSelector</text>
+<text x="1272" y="557" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Riwayat Tidur</text>
+<text x="1272" y="577" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: weekLabel, onPrevious, onNext</text>
+<rect x="1265" y="588" width="372" height="232" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 556.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="122" width="342" height="50" rx="24" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="195.0" y="153" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">‹    Minggu ini    ›</text>
+
+</g>
+</g>
+<rect x="28" y="899" width="1632" height="877" rx="24" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="53" y="945" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="29" font-weight="800">Tombol dan isian</text>
+<g id="component-9" aria-label="Button · Primary">
+<rect x="52" y="968" width="386" height="152" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="991" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Button · Primary</text>
+<text x="66" y="1014" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Masuk, Daftar, Catat, Ubah Sesi</text>
+<text x="66" y="1034" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, variant, disabled, onPress</text>
+<rect x="59" y="1045" width="372" height="67" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 477)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="575" width="342" height="52" rx="26" fill="#6632BC" />
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="608" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#FFFFFF">Masuk</text>
+
+</g>
+</g>
+<g id="component-10" aria-label="Button · Secondary">
+<rect x="454" y="968" width="386" height="152" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="991" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Button · Secondary</text>
+<text x="468" y="1014" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Konfirmasi Hapus, Target</text>
+<text x="468" y="1034" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, variant, disabled, onPress</text>
+<rect x="461" y="1045" width="372" height="67" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 295)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="759" width="342" height="48" rx="24" fill="#F2EAFF" />
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="789" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Batal</text>
+
+</g>
+</g>
+<g id="component-11" aria-label="Button · Destructive">
+<rect x="856" y="968" width="386" height="152" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="991" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Button · Destructive</text>
+<text x="870" y="1014" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Konfirmasi Hapus</text>
+<text x="870" y="1034" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, variant, disabled, onPress</text>
+<rect x="863" y="1045" width="372" height="67" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 354)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="700" width="342" height="48" rx="24" fill="#9F2358" />
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="730" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Hapus sesi</text>
+
+</g>
+</g>
+<g id="component-12" aria-label="Button · Disabled">
+<rect x="1258" y="968" width="386" height="152" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="991" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Button · Disabled</text>
+<text x="1272" y="1014" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Validasi Ubah Sesi</text>
+<text x="1272" y="1034" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, variant, disabled, onPress</text>
+<rect x="1265" y="1045" width="372" height="67" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 382)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="672" width="342" height="48" rx="24" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="702" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Simpan perubahan</text>
+
+</g>
+</g>
+<g id="component-13" aria-label="Button · Edit Ringkas">
+<rect x="52" y="1144" width="386" height="170" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="1167" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Button · Edit Ringkas</text>
+<text x="66" y="1190" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Target &amp; Rekomendasi</text>
+<text x="66" y="1210" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, icon, variant, onPress</text>
+<rect x="59" y="1221" width="372" height="85" rx="12" fill="#FBF8FF"/>
+<g transform="translate(-48 987)">
+<rect xmlns="http://www.w3.org/2000/svg" x="237" y="254" width="112" height="44" rx="22" fill="#F2EAFF" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(248 268)" d="m2 13 1-4L11 1l4 4-8 8-5 1Zm7-10 4 4" fill="none" stroke="#6632BC" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="274" y="281" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700">Ubah target</text>
+
+</g>
+</g>
+<g id="component-14" aria-label="TextField · Default">
+<rect x="454" y="1144" width="386" height="170" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="1167" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TextField · Default</text>
+<text x="468" y="1190" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Masuk, Daftar, Ubah Profil</text>
+<text x="468" y="1210" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, placeholder, onChange</text>
+<rect x="461" y="1221" width="372" height="85" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 835)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="407" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Email</text>
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="415" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="39" y="443" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">nama@contoh.id</text>
+
+</g>
+</g>
+<g id="component-15" aria-label="TextField · Kata sandi">
+<rect x="856" y="1144" width="386" height="170" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="1167" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TextField · Kata sandi</text>
+<text x="870" y="1190" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Masuk dan Daftar</text>
+<text x="870" y="1210" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, secureTextEntry, onToggle</text>
+<rect x="863" y="1221" width="372" height="85" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 768)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="474" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Kata sandi</text>
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="482" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="39" y="510" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Masukkan kata sandi</text>
+<path xmlns="http://www.w3.org/2000/svg" d="M325 33q8-10 16 0-8 10-16 0Zm8-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" transform="translate(0 471)" fill="none" stroke="#62536F" stroke-width="1.4" stroke-linejoin="round" />
+
+</g>
+</g>
+<g id="component-16" aria-label="TextField · Error">
+<rect x="1258" y="1144" width="386" height="170" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="1167" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TextField · Error</text>
+<text x="1272" y="1190" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Daftar · dipasangkan dengan Toast</text>
+<text x="1272" y="1210" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, error, onChange</text>
+<rect x="1265" y="1221" width="372" height="85" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 771)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="474" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Email</text>
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="482" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#9F2358" />
+<text xmlns="http://www.w3.org/2000/svg" x="39" y="510" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">nama@contoh.id</text>
+
+</g>
+</g>
+<g id="component-17" aria-label="NumberField · Usia">
+<rect x="52" y="1338" width="386" height="206" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="1361" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">NumberField · Usia</text>
+<text x="66" y="1384" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Daftar dan Ubah Profil</text>
+<text x="66" y="1404" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, unit, onChange</text>
+<rect x="59" y="1415" width="372" height="121" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 848)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="608" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Usia</text>
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="616" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="39" y="644" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Contoh: 21</text>
+<path xmlns="http://www.w3.org/2000/svg" d="M296 627v23" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="351" y="644" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">tahun</text>
+
+</g>
+</g>
+<g id="component-18" aria-label="NumberField · Faktor tidur">
+<rect x="454" y="1338" width="386" height="206" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="1361" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">NumberField · Faktor tidur</text>
+<text x="468" y="1384" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Catat, Tinjau, dan Ubah Sesi</text>
+<text x="468" y="1404" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, unit, onChange</text>
+<rect x="461" y="1415" width="372" height="121" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 994)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Kafein</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="36" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">1</text>
+
+<path xmlns="http://www.w3.org/2000/svg" d="M118 481v22" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="175" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">shots</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="201" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Waktu layar</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="201" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="213" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">45</text>
+
+<path xmlns="http://www.w3.org/2000/svg" d="M295 481v22" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="352" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">menit</text>
+
+</g>
+</g>
+<g id="component-19" aria-label="TimeCard · Default">
+<rect x="856" y="1338" width="386" height="206" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="1361" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TimeCard · Default</text>
+<text x="870" y="1384" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Catat, Tinjau, dan Ubah Sesi</text>
+<text x="870" y="1404" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, date, time, error, onPress</text>
+<rect x="863" y="1415" width="372" height="121" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 1110)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text>
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text>
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text>
+<path xmlns="http://www.w3.org/2000/svg" d="M11 13a7 7 0 0 1-7-9 7 7 0 1 0 7 9Z" transform="translate(154 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="201" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text>
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text>
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Min, 22 Nov</text>
+<path xmlns="http://www.w3.org/2000/svg" d="M7 2v2m0 8v2M2 7h2m6 0h2M7 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" transform="translate(331 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+</g>
+</g>
+<g id="component-20" aria-label="TimeCard · Error">
+<rect x="1258" y="1338" width="386" height="206" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="1361" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TimeCard · Error</text>
+<text x="1272" y="1384" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Validasi Ubah Sesi</text>
+<text x="1272" y="1404" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, date, time, error, onPress</text>
+<rect x="1265" y="1415" width="372" height="121" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 1110)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text>
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text>
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text>
+<path xmlns="http://www.w3.org/2000/svg" d="M11 13a7 7 0 0 1-7-9 7 7 0 1 0 7 9Z" transform="translate(154 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="201" y="312" width="165" height="106" rx="18" fill="#FFE5F0" stroke="#9F2358" />
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text>
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text>
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text>
+<path xmlns="http://www.w3.org/2000/svg" d="M7 2v2m0 8v2M2 7h2m6 0h2M7 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" transform="translate(331 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+</g>
+</g>
+<g id="component-21" aria-label="SleepQualityPicker">
+<rect x="52" y="1568" width="386" height="161" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="1591" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">SleepQualityPicker</text>
+<text x="66" y="1614" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Catat, Tinjau, dan Ubah Sesi</text>
+<text x="66" y="1634" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: value, onChange, disabled</text>
+<rect x="59" y="1645" width="372" height="76" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 1161)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="491" width="62" height="61" rx="15" fill="#F2EAFF" />
+
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(41 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12" /><path d="M7 9l4 1m6 0 4-1" /><circle cx="10" cy="12" r=".85" fill="#6632BC" /><circle cx="18" cy="12" r=".85" fill="#6632BC" /><path d="M9 20q5-6 10 0" /></g>
+
+<text xmlns="http://www.w3.org/2000/svg" x="55" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">1</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="94" y="491" width="62" height="61" rx="15" fill="#F2EAFF" />
+
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(111 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12" /><circle cx="10" cy="12" r=".85" fill="#6632BC" /><circle cx="18" cy="12" r=".85" fill="#6632BC" /><path d="M9 19q5-3 10 0" /></g>
+
+<text xmlns="http://www.w3.org/2000/svg" x="125" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">2</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="164" y="491" width="62" height="61" rx="15" fill="#F2EAFF" />
+
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(181 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12" /><circle cx="10" cy="12" r=".85" fill="#6632BC" /><circle cx="18" cy="12" r=".85" fill="#6632BC" /><path d="M10 19h8" /></g>
+
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">3</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="234" y="491" width="62" height="61" rx="15" fill="#6632BC" />
+
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(251 498)" stroke="#FFFFFF" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12" /><circle cx="10" cy="12" r=".85" fill="#FFFFFF" /><circle cx="18" cy="12" r=".85" fill="#FFFFFF" /><path d="M9 17q5 6 10 0" /></g>
+
+<text xmlns="http://www.w3.org/2000/svg" x="265" y="544" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">4</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="304" y="491" width="62" height="61" rx="15" fill="#F2EAFF" />
+
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(321 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12" /><circle cx="10" cy="12" r=".85" fill="#6632BC" /><circle cx="18" cy="12" r=".85" fill="#6632BC" /><path d="M8 16h12q-6 10-12 0Z" /></g>
+
+<text xmlns="http://www.w3.org/2000/svg" x="335" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">5</text>
+
+</g>
+</g>
+<g id="component-22" aria-label="ChoiceGroup · Stres">
+<rect x="454" y="1568" width="386" height="161" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="1591" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">ChoiceGroup · Stres</text>
+<text x="468" y="1614" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Catat, Tinjau, dan Ubah Sesi</text>
+<text x="468" y="1634" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: options, value, onChange</text>
+<rect x="461" y="1645" width="372" height="76" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 1114.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="546" width="110" height="44" rx="13" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="79" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Rendah</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="140" y="546" width="110" height="44" rx="13" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="573" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sedang</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="256" y="546" width="110" height="44" rx="13" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="311" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Tinggi</text>
+
+</g>
+</g>
+<g id="component-23" aria-label="Switch · Pengingat">
+<rect x="856" y="1568" width="386" height="161" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="1591" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Switch · Pengingat</text>
+<text x="870" y="1614" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Profil &amp; Pengingat</text>
+<text x="870" y="1634" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: value, onChange, disabled</text>
+<rect x="863" y="1645" width="372" height="76" rx="12" fill="#FBF8FF"/>
+<g transform="translate(726.5 1175.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="298" y="493" width="49" height="28" rx="14" fill="#6632BC" />
+
+<circle xmlns="http://www.w3.org/2000/svg" cx="332" cy="507" r="10" fill="#FFFFFF" />
+
+</g>
+</g>
+<g id="component-24" aria-label="InlineMessage · Error">
+<rect x="1258" y="1568" width="386" height="161" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="1591" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">InlineMessage · Error</text>
+<text x="1272" y="1614" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Catat Tidur · Validasi Ubah Sesi</text>
+<text x="1272" y="1634" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: message, tone</text>
+<rect x="1265" y="1645" width="372" height="76" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 1240.5)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="444" fill="#9F2358" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Waktu bangun harus setelah waktu mulai tidur.</text>
+
+</g>
+</g>
+<rect x="28" y="1800" width="1632" height="684" rx="24" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="53" y="1846" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="29" font-weight="800">Kartu dan data tidur</text>
+<g id="component-25" aria-label="HeroCard · Skor">
+<rect x="52" y="1869" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="1892" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">HeroCard · Skor</text>
+<text x="66" y="1915" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Ringkasan</text>
+<text x="66" y="1935" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, detail, artwork, action</text>
+<rect x="59" y="1946" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 1823)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="130" width="342" height="172" rx="26" fill="#30185A" stroke="#8260B2" />
+
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(218 167) scale(0.72)"><ellipse cx="85" cy="58" rx="82" ry="32" transform="rotate(-22 85 58)" fill="none" stroke="#A764DD" opacity=".65" /><circle cx="85" cy="58" r="43" fill="url(#planet)" /><path d="M12 83Q79 108 156 36" fill="none" stroke="#59DCE8" stroke-width="5" stroke-linecap="round" /><circle cx="141" cy="18" r="9" fill="#FFC75A" /><path d="m23 25 4 7 7 3-7 3-4 7-3-7-7-3 7-3z" fill="#FFC75A" /><circle cx="43" cy="10" r="2" fill="#CDB6FF" /><circle cx="163" cy="76" r="2" fill="#CDB6FF" /></g>
+
+<text xmlns="http://www.w3.org/2000/svg" x="42" y="163" fill="#59DCE8" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start">SKOR TIDUR TERAKHIR</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="42" y="222" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="42" font-weight="800" text-anchor="start">84</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="114" y="220" fill="#CDB6FF" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">/ 100</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="42" y="263" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">7 j 30 m · 22:30 – 06:00</text>
+
+</g>
+</g>
+<g id="component-26" aria-label="HeroCard · Target">
+<rect x="454" y="1869" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="1892" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">HeroCard · Target</text>
+<text x="468" y="1915" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Target &amp; Rekomendasi</text>
+<text x="468" y="1935" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, detail, artwork, action</text>
+<rect x="461" y="1946" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 1814)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="139" width="342" height="172" rx="26" fill="#30185A" stroke="#8260B2" />
+
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(224 150) scale(0.7)"><ellipse cx="85" cy="58" rx="82" ry="32" transform="rotate(-22 85 58)" fill="none" stroke="#A764DD" opacity=".65" /><circle cx="85" cy="58" r="43" fill="url(#planet)" /><path d="M12 83Q79 108 156 36" fill="none" stroke="#59DCE8" stroke-width="5" stroke-linecap="round" /><circle cx="141" cy="18" r="9" fill="#FFC75A" /><path d="m23 25 4 7 7 3-7 3-4 7-3-7-7-3 7-3z" fill="#FFC75A" /><circle cx="43" cy="10" r="2" fill="#CDB6FF" /><circle cx="163" cy="76" r="2" fill="#CDB6FF" /></g>
+
+<text xmlns="http://www.w3.org/2000/svg" x="44" y="172" fill="#FFC75A" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">TARGET DURASI TIDUR</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="44" y="228" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="start">8 jam</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="44" y="266" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Jam tidur ideal · 22:30</text>
+
+<g xmlns="http://www.w3.org/2000/svg" aria-label="Ubah target">
+<rect x="237" y="254" width="112" height="44" rx="22" fill="#F2EAFF" />
+<path transform="translate(248 268)" d="m2 13 1-4L11 1l4 4-8 8-5 1Zm7-10 4 4" fill="none" stroke="#6632BC" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" />
+<text x="274" y="281" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700">Ubah target</text>
+</g>
+
+</g>
+</g>
+<g id="component-27" aria-label="ScoreCard · Detail">
+<rect x="856" y="1869" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="1892" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">ScoreCard · Detail</text>
+<text x="870" y="1915" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Detail Sesi dan Konfirmasi Hapus</text>
+<text x="870" y="1935" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, score, maxScore</text>
+<rect x="863" y="1946" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(755.5 1854.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="240" y="156" width="107" height="57" rx="15" fill="#FFFFFF" stroke="#6632BC" stroke-width="1.5" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="293" y="178" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Skor tidur</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="293" y="199" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">84 / 100</text>
+
+</g>
+</g>
+<g id="component-28" aria-label="WeeklyScoreChart · Riwayat">
+<rect x="1258" y="1869" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="1892" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">WeeklyScoreChart · Riwayat</text>
+<text x="1272" y="1915" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Riwayat</text>
+<text x="1272" y="1935" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: points, selectedDay, onSelect, action</text>
+<rect x="1265" y="1946" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 1637)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="316" width="342" height="172" rx="22" fill="#FFFFFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="40" y="345" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Skor mingguan</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="43" y="399" width="27" height="46" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="56" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sen</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="88" y="389" width="27" height="56" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="101" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sel</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="133" y="402" width="27" height="43" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="146" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Rab</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="178" y="403" width="27" height="42" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="191" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Kam</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="223" y="397" width="27" height="48" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="236" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Jum</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="268" y="375" width="27" height="70" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="281" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sab</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="313" y="362" width="27" height="83" rx="8" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="326" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Min</text>
+
+</g>
+</g>
+<g id="component-29" aria-label="WeeklyScoreChart · Ringkasan">
+<rect x="52" y="2165" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="2188" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">WeeklyScoreChart · Ringkasan</text>
+<text x="66" y="2211" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Ringkasan</text>
+<text x="66" y="2231" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: points, selectedDay, onSelect, action</text>
+<rect x="59" y="2242" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 1933)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="316" width="342" height="172" rx="22" fill="#FFFFFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="40" y="345" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Skor mingguan</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="242" y="329" width="108" height="29" rx="14" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="290" y="348" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Lihat riwayat</text>
+
+<path xmlns="http://www.w3.org/2000/svg" d="m334 339 4 4-4 4" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="43" y="399" width="27" height="46" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="56" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sen</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="88" y="389" width="27" height="56" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="101" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sel</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="133" y="402" width="27" height="43" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="146" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Rab</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="178" y="403" width="27" height="42" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="191" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Kam</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="223" y="397" width="27" height="48" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="236" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Jum</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="268" y="375" width="27" height="70" rx="8" fill="#CDB6FF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="281" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sab</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="313" y="362" width="27" height="83" rx="8" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="326" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Min</text>
+
+</g>
+</g>
+<g id="component-30" aria-label="MetricCard · Rata-rata">
+<rect x="454" y="2165" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="2188" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">MetricCard · Rata-rata</text>
+<text x="468" y="2211" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Riwayat Tidur</text>
+<text x="468" y="2231" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, unit, supportingText</text>
+<rect x="461" y="2242" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 2100)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="191" width="165" height="88" rx="18" fill="#FFFFFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="213" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Rata-rata durasi</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="242" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="start">6 j 42 m</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="264" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">7 sesi</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="201" y="191" width="165" height="88" rx="18" fill="#FFFFFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="213" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Rata-rata skor</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="242" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="start">72/100</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="264" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Target tercapai 3 hari</text>
+
+</g>
+</g>
+<g id="component-31" aria-label="SessionRow">
+<rect x="856" y="2165" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="2188" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">SessionRow</text>
+<text x="870" y="2211" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Riwayat Tidur · daftar sesi</text>
+<text x="870" y="2231" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: date, timeRange, duration, score, onPress</text>
+<rect x="863" y="2242" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 1780)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="526" width="342" height="58" rx="17" fill="#FFFFFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="40" y="549" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Minggu, 22 Nov</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="40" y="572" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">22:30 – 06:00 · 7 j 30 m</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="322" y="562" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="end">84</text>
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(333 545)" d="M9 5l7 7-7 7" stroke="#62536F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+</g>
+</g>
+<g id="component-32" aria-label="InsightCard · Faktor">
+<rect x="1258" y="2165" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="2188" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">InsightCard · Faktor</text>
+<text x="1272" y="2211" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Wawasan · Kafein, Layar, Suhu</text>
+<text x="1272" y="2231" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: value, unit, title, insight, source</text>
+<rect x="1265" y="2242" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 2021)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="276" width="342" height="76" rx="18" fill="#FFFFFF" stroke="#E7DDF1" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="33" y="285" width="72" height="58" rx="13" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="69" y="311" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="middle">3</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="69" y="328" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">sesi</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="119" y="300" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="start">Kafein</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="119" y="319" fill="#443453" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Skor cenderung lebih rendah.</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="119" y="337" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Pada sesi dengan kafein.</text>
+
+</g>
+</g>
+<rect x="28" y="2508" width="1632" height="535" rx="24" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="53" y="2554" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="29" font-weight="800">Pesan dan konfirmasi</text>
+<g id="component-33" aria-label="WarningCard · Utang tidur">
+<rect x="52" y="2577" width="386" height="419" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="2600" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">WarningCard · Utang tidur</text>
+<text x="66" y="2623" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Ringkasan</text>
+<text x="66" y="2643" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, message, icon, tone</text>
+<rect x="59" y="2654" width="372" height="334" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 2272.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="504" width="342" height="88" rx="18" fill="#FFE398" stroke="#E7AD3C" />
+
+<circle xmlns="http://www.w3.org/2000/svg" cx="55" cy="533" r="17" fill="#FFC75A" />
+
+<path xmlns="http://www.w3.org/2000/svg" d="M55 526l7 12H48l7-12Z M55 530v3m0 2.5h.01" fill="none" stroke="#613D08" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="82" y="531" fill="#613D08" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Utang tidur terdeteksi</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="82" y="552" fill="#613D08" font-family="Inter, Arial, sans-serif" font-size="12">Tidur kurang dari 6 jam selama 3 malam</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="82" y="571" fill="#613D08" font-family="Inter, Arial, sans-serif" font-size="12">berturut-turut. Coba tidur 30 menit lebih awal.</text>
+
+</g>
+</g>
+<g id="component-34" aria-label="Toast · Pesan">
+<rect x="454" y="2577" width="386" height="419" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="2600" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Toast · Pesan</text>
+<text x="468" y="2623" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Masuk, Daftar, Wawasan</text>
+<text x="468" y="2643" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: message, actionLabel, onAction, duration</text>
+<rect x="461" y="2654" width="372" height="334" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 2706.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="8" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="94" width="342" height="40" rx="12" fill="#3E2B5A" stroke="#FFFFFF" stroke-opacity=".94" stroke-width="1.25" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="39" y="119" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="12">Email sudah terdaftar.</text>
+
+</g>
+</g>
+<g id="component-35" aria-label="Toast · Dengan aksi">
+<rect x="856" y="2577" width="386" height="419" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="2600" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Toast · Dengan aksi</text>
+<text x="870" y="2623" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Gangguan API</text>
+<text x="870" y="2643" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: message, actionLabel, onAction, duration</text>
+<rect x="863" y="2654" width="372" height="334" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 2706.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="8" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="94" width="342" height="40" rx="12" fill="#3E2B5A" stroke="#FFFFFF" stroke-opacity=".94" stroke-width="1.25" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="39" y="119" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="12">Ringkasan gagal dimuat.</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="350" y="119" fill="#E2D2FF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">Coba lagi</text>
+
+</g>
+</g>
+<g id="component-36" aria-label="ConfirmSheet · Hapus">
+<rect x="1258" y="2577" width="386" height="419" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="2600" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">ConfirmSheet · Hapus</text>
+<text x="1272" y="2623" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Detail Sesi · Konfirmasi Hapus</text>
+<text x="1272" y="2643" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, message, onConfirm, onCancel</text>
+<rect x="1265" y="2654" width="372" height="334" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 2148)">
+<rect xmlns="http://www.w3.org/2000/svg" x="12" y="513" width="366" height="319" rx="28" fill="#FFFFFF" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="174" y="527" width="42" height="4" rx="2" fill="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="30" y="571" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start">Hapus sesi tidur?</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="30" y="598" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Ringkasan tidur akan diperbarui.</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="30" y="613" width="330" height="68" rx="15" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="44" y="639" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="start">21–22 November 2026</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="44" y="662" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">22:30 – 06:00 · 7 j 30 m</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="700" width="342" height="48" rx="24" fill="#9F2358" />
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="730" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Hapus sesi</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="759" width="342" height="48" rx="24" fill="#F2EAFF" />
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="789" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Batal</text>
+
+</g>
+</g>
+<rect x="28" y="3067" width="1632" height="823" rx="24" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="53" y="3113" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="28" font-weight="800">Varian tambahan dan blok yang berulang</text>
+<text x="53" y="3138" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400">Chip adalah satu pilihan. ChoiceGroup merangkai beberapa pilihan untuk satu nilai.</text>
+<g id="component-37" aria-label="HeaderBar · Tanpa tombol kembali">
+<rect x="52" y="3157" width="386" height="173" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="3180" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">HeaderBar · Tanpa tombol kembali</text>
+<text x="66" y="3203" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard dan Profil</text>
+<text x="66" y="3223" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: title, showBack, onBack</text>
+<rect x="59" y="3234" width="372" height="88" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 3208.5)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="74" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Dashboard</text>
+
+</g>
+</g>
+<g id="component-38" aria-label="Chip · Biasa dan terpilih">
+<rect x="454" y="3157" width="386" height="173" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="3180" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Chip · Biasa dan terpilih</text>
+<text x="468" y="3203" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Pilihan tingkat stres</text>
+<text x="468" y="3223" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, selected, onPress</text>
+<rect x="461" y="3234" width="372" height="88" rx="12" fill="#FBF8FF"/>
+<g transform="translate(510 2709.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="546" width="110" height="44" rx="13" fill="#F2EAFF" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="79" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Rendah</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="140" y="546" width="110" height="44" rx="13" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="195" y="573" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sedang</text>
+
+</g>
+</g>
+<g id="component-39" aria-label="ChoiceGroup · Mode pengingat">
+<rect x="856" y="3157" width="386" height="173" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="3180" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">ChoiceGroup · Mode pengingat</text>
+<text x="870" y="3203" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Profil · Ubah Profil</text>
+<text x="870" y="3223" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: options, value, onChange</text>
+<rect x="863" y="3234" width="372" height="88" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 2843.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="411" width="165" height="46" rx="14" fill="#6632BC" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="106.5" y="440" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">30 mnt sebelum tidur</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="201" y="411" width="165" height="46" rx="14" fill="#F2EAFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="283.5" y="440" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Pilih jam sendiri</text>
+
+</g>
+</g>
+<g id="component-40" aria-label="NumberField · Durasi target">
+<rect x="1258" y="3157" width="386" height="173" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="3180" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">NumberField · Durasi target</text>
+<text x="1272" y="3203" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Rekomendasi &amp; Target · Edit Target</text>
+<text x="1272" y="3223" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, unit, onChange</text>
+<rect x="1265" y="3234" width="372" height="88" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 3095)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="159" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">Durasi target</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="169" width="342" height="48" rx="12" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="199" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">6</text>
+<path xmlns="http://www.w3.org/2000/svg" d="M296 182v23" stroke="#D8CCE7" />
+<text xmlns="http://www.w3.org/2000/svg" x="351" y="199" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">jam</text>
+
+</g>
+</g>
+<g id="component-41" aria-label="ClockField · Jam pengingat">
+<rect x="52" y="3343" width="386" height="192" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="3366" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">ClockField · Jam pengingat</text>
+<text x="66" y="3389" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Ubah Profil dan Edit Target</text>
+<text x="66" y="3409" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, time, readOnly, onChange</text>
+<rect x="59" y="3420" width="372" height="107" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 2960)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="489" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700">Jam pengingat</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="497" width="342" height="48" rx="13" fill="#F2EAFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="37" y="527" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15">22:00</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="350" y="527" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="end">Otomatis</text>
+
+</g>
+</g>
+<g id="component-42" aria-label="TextField · Catatan">
+<rect x="454" y="3343" width="386" height="192" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="3366" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TextField · Catatan</text>
+<text x="468" y="3389" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Catat Manual, Tinjau dan Ubah Sesi</text>
+<text x="468" y="3409" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: label, value, placeholder, onChange</text>
+<rect x="461" y="3420" width="372" height="107" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 2839)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="612" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Catatan</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="622" width="342" height="42" rx="12" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="648" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Terbangun sekali tengah malam.</text>
+
+</g>
+</g>
+<g id="component-43" aria-label="InlineMessage · Peringatan">
+<rect x="856" y="3343" width="386" height="192" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="3366" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">InlineMessage · Peringatan</text>
+<text x="870" y="3389" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Edit Target</text>
+<text x="870" y="3409" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: message, tone</text>
+<rect x="863" y="3420" width="372" height="107" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 3240.5)">
+<text xmlns="http://www.w3.org/2000/svg" x="24" y="234" fill="#75500C" font-family="Inter, Arial, sans-serif" font-size="11">6 jam di luar acuan 7–9 jam.</text>
+
+</g>
+</g>
+<g id="component-44" aria-label="SleepTimeSummary · Baca saja">
+<rect x="1258" y="3343" width="386" height="192" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="1272" y="3366" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">SleepTimeSummary · Baca saja</text>
+<text x="1272" y="3389" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Detail Sesi dan Konfirmasi Hapus</text>
+<text x="1272" y="3409" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: startDate, endDate, startTime, endTime</text>
+<rect x="1265" y="3420" width="372" height="107" rx="12" fill="#FBF8FF"/>
+<g transform="translate(1256 3167)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="260" width="165" height="92" rx="18" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="284" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="313" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="38" y="335" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="201" y="260" width="165" height="92" rx="18" fill="#FFFFFF" stroke="#D8CCE7" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="284" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="313" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="215" y="335" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Min, 22 Nov</text>
+
+</g>
+</g>
+<g id="component-45" aria-label="TrackingStats">
+<rect x="52" y="3548" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="66" y="3571" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">TrackingStats</text>
+<text x="66" y="3594" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Pelacak Tidur · Sesi Aktif</text>
+<text x="66" y="3614" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: startTime, elapsed, targetDuration</text>
+<rect x="59" y="3625" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(50 3107.5)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="556" width="342" height="109" rx="24" fill="#FFFFFF" />
+    
+<path xmlns="http://www.w3.org/2000/svg" d="M138 579v63m114-63v63" stroke="#D8CCE7" />
+    
+<g xmlns="http://www.w3.org/2000/svg" text-anchor="middle" fill="#25183C">
+      <text x="81" y="598" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800">22:00</text>
+      <text x="195" y="598" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800">14 m</text>
+      <text x="309" y="598" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800">8 j</text>
+      <text x="81" y="626" font-size="11" fill="#62536F">Mulai sesi</text>
+      <text x="195" y="626" font-size="11" fill="#62536F">Waktu berjalan</text>
+      <text x="309" y="626" font-size="11" fill="#62536F">Target tidur</text>
+    </g>
+    
+</g>
+</g>
+<g id="component-46" aria-label="ReminderCard">
+<rect x="454" y="3548" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="468" y="3571" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">ReminderCard</text>
+<text x="468" y="3594" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Profil &amp; Pengingat</text>
+<text x="468" y="3614" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: enabled, scheduledTime, onToggle</text>
+<rect x="461" y="3625" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(452 3209)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="455" width="342" height="108" rx="24" fill="#F2EAFF" stroke="#E7DDF1" />
+
+<circle xmlns="http://www.w3.org/2000/svg" cx="65" cy="507" r="23" fill="#FFFFFF" />
+
+<path xmlns="http://www.w3.org/2000/svg" transform="translate(53 495)" d="M5 17h14l-2-3v-4a5 5 0 0 0-10 0v4z M10 21h4" fill="none" stroke="#6632BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+<text xmlns="http://www.w3.org/2000/svg" x="100" y="503" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800">Pengingat tidur</text>
+
+<text xmlns="http://www.w3.org/2000/svg" x="100" y="527" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13">Aktif · Setiap hari, 22:00</text>
+
+<rect xmlns="http://www.w3.org/2000/svg" x="298" y="493" width="49" height="28" rx="14" fill="#6632BC" />
+
+<circle xmlns="http://www.w3.org/2000/svg" cx="332" cy="507" r="10" fill="#FFFFFF" />
+
+</g>
+</g>
+<g id="component-47" aria-label="Skeleton · Skor Tidur">
+<rect x="856" y="3548" width="386" height="272" rx="17" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="870" y="3571" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Skeleton · Skor Tidur</text>
+<text x="870" y="3594" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400">Layar: Dashboard · Memuat</text>
+<text x="870" y="3614" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400">Props: width, height, loading</text>
+<rect x="863" y="3625" width="372" height="187" rx="12" fill="#FBF8FF"/>
+<g transform="translate(854 3438)">
+<rect xmlns="http://www.w3.org/2000/svg" x="24" y="194" width="342" height="172" rx="26" fill="#F2EAFF" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="42" y="219" width="139" height="13" rx="6" fill="#D8CCE7" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="42" y="249" width="82" height="46" rx="11" fill="#D8CCE7" />
+
+<rect xmlns="http://www.w3.org/2000/svg" x="42" y="319" width="192" height="13" rx="6" fill="#D8CCE7" />
+
+</g>
+</g>
+</svg>
