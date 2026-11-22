@@ -5,6 +5,9 @@ export default function HeroCard({ label, value, detail, children, suffix }) {
     <Image source={require('../../assets/design/planet.png')} resizeMode="contain" style={{position:'absolute',right:6,top:12,width:'42%',height:124}}/>
     <Text style={{fontFamily:'Nunito',fontSize:11,color:COLORS.accent}}>{label}</Text>
     <Text style={{color:'white',fontFamily:'Nunito',fontSize:40}}>{value}{suffix && <Text style={{fontSize:17,color:COLORS.secondary}}> {suffix}</Text>}</Text>
-    <Text style={{color:'white',fontFamily:'Inter',fontSize:13}}>{detail}</Text>{children}
+    <View style={{flexDirection:'row',alignItems:'flex-start',justifyContent:'space-between',gap:8}}>
+      <Text style={{flex:1,color:'white',fontFamily:'Inter',fontSize:13}}>{detail}</Text>
+      {children}
+    </View>
   </View>;
 }

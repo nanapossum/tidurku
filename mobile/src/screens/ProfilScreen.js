@@ -10,13 +10,15 @@ export function reminderTime(settings){
 }
 export default function ProfilScreen({navigation}){
   const {account,saveSettings}=useSleep();
-  return <Screen title="Profil" background={require('../../assets/design/profile.png')} tabs>
-    <View style={{backgroundColor:'white',borderRadius:26,padding:20,gap:10,alignItems:'center'}}>
-      <Image source={require('../../assets/design/avatar.png')} resizeMode="contain" style={{width:'100%',height:136}}/>
-      <Text style={{fontFamily:'Nunito',fontSize:25,color:COLORS.text}}>{account.name}</Text>
-      <Text style={{color:COLORS.muted}}>{account.email}</Text>
-      <Text style={{backgroundColor:COLORS.surface,color:COLORS.primary,borderRadius:12,padding:6}}>{account.age} tahun</Text>
-      <View style={{alignSelf:'stretch'}}><Button title="Ubah profil" onPress={()=>navigation.navigate('EditProfile')}/></View>
+  return <Screen title="Profil" background={require('../../assets/design/profile.png')} backgroundEdgeColors={['#352746', '#675572']} tabs>
+    <View style={{backgroundColor:'white',borderRadius:26,overflow:'hidden'}}>
+      <Image source={require('../../assets/design/avatar.png')} resizeMode="contain" style={{width:'100%',height:undefined,aspectRatio:480/278}}/>
+      <View style={{padding:20,gap:10,alignItems:'center'}}>
+        <Text style={{fontFamily:'Nunito',fontSize:25,color:COLORS.text}}>{account.name}</Text>
+        <Text style={{color:COLORS.muted}}>{account.email}</Text>
+        <Text style={{backgroundColor:COLORS.surface,color:COLORS.primary,borderRadius:12,padding:6}}>{account.age} tahun</Text>
+        <View style={{alignSelf:'stretch'}}><Button title="Ubah profil" onPress={()=>navigation.navigate('EditProfile')}/></View>
+      </View>
     </View>
     <View style={{backgroundColor:COLORS.surface,borderRadius:20,padding:18,flexDirection:'row',alignItems:'center',gap:10}}>
       <View style={{flex:1,gap:5}}><Text style={{fontFamily:'Nunito',fontSize:17}}>Pengingat tidur</Text>

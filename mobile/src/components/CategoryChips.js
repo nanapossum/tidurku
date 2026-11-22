@@ -1,6 +1,8 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { Feather } from '@expo/vector-icons';
 import { COLORS } from '../theme/colors';
+
+const qualityIcons = { 1: 'frown', 2: 'frown', 3: 'meh', 4: 'smile', 5: 'smile' };
 
 export default function CategoryChips({ options, value, onChange }) {
   return (
@@ -13,7 +15,9 @@ export default function CategoryChips({ options, value, onChange }) {
           onPress={() => onChange(option)}
           style={[styles.chip, value === option && styles.selected]}
         >
-          {/^[1-5]$/.test(option) && <Ionicons name={Number(option)<3?'sad-outline':Number(option)>3?'happy-outline':'ellipse-outline'} size={19} color={value===option?'white':COLORS.primary}/>}
+          {qualityIcons[option] && (
+            <Feather name={qualityIcons[option]} size={19} color={value === option ? 'white' : COLORS.primary} />
+          )}
           <Text style={[styles.label, value === option && {color: "white"}]}>{option}</Text>
         </Pressable>
       ))}

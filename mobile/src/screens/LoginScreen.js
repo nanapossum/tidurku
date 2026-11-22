@@ -38,14 +38,14 @@ export default function LoginScreen({navigation}) {
       </ImageBackground>
       <View style={{borderTopLeftRadius:32,borderTopRightRadius:32,marginTop:-18,backgroundColor:'white',padding:24,gap:12}}>
         <Text style={{fontFamily:'Nunito',fontSize:26,color:COLORS.text}}>{title}</Text>
-        <Text style={{fontFamily:'Inter',color:COLORS.muted}}>{registering?'Usia membantu menyiapkan target awal.':'Lanjut lihat catatan dan pola tidurmu.'}</Text>
+        {!registering && <Text style={{fontFamily:'Inter',color:COLORS.muted}}>Lanjut lihat catatan dan pola tidurmu.</Text>}
         {message ? <Text accessibilityRole="alert" style={{backgroundColor:'#3E2B5A',color:'white',padding:12,borderRadius:12}}>{message}</Text>:null}
         {registering && <CustomInput label="Nama" placeholder="Nama lengkap" {...form.field('name')}/>}
         <CustomInput label="Email" placeholder="nama@contoh.id" autoCapitalize="none" keyboardType="email-address" {...form.field('email')}/>
         <View><CustomInput label="Kata sandi" placeholder="Masukkan kata sandi" secureTextEntry={!visible} {...form.field('password')}/>
           <Pressable accessibilityLabel="Tampilkan atau sembunyikan kata sandi" hitSlop={8} onPress={()=>setVisible(!visible)} style={{position:'absolute',right:12,top:35}}><Ionicons name={visible?'eye-off-outline':'eye-outline'} size={18} color={COLORS.muted}/></Pressable>
         </View>
-        {registering && <CustomInput label="Usia" placeholder="Contoh: 21" keyboardType="number-pad" {...form.field('age')}/>}
+        {registering && <CustomInput label="Usia" unit="tahun" placeholder="Contoh: 21" keyboardType="number-pad" {...form.field('age')}/>}
         <Button title={registering?'Daftar':'Masuk'} onPress={()=>form.submit(submit)}/>
         <Text accessibilityRole="button" onPress={switchMode} style={{textAlign:'center',padding:12,color:COLORS.primary,fontFamily:'Nunito'}}>{registering?'Sudah punya akun? Masuk':'Belum punya akun? Daftar'}</Text>
       </View>

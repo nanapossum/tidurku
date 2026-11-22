@@ -1,5 +1,6 @@
 import {useState} from 'react';
-import {Pressable,Text,View,Alert} from 'react-native';
+import {Pressable,Text,View,Alert,Modal,Platform} from 'react-native';
+import DateTimePicker, {DateTimePickerAndroid} from '@react-native-community/datetimepicker';
 import Screen from '../components/Screen';
 import Button from '../components/Button';
 import CustomInput from '../components/CustomInput';
@@ -30,6 +31,21 @@ export default function TrackScreen({navigation,route}){
   const values=form.values;
   const from=parseDateTime(values.startDate,values.startTime),to=parseDateTime(values.endDate,values.endTime);
   const heading={fontFamily:'Nunito',fontSize:18,color:COLORS.text};
+  function applySelection(key, mode, date) {
+    if (mode === 'date') form.change(key+'Date', localDateValue(date));
+    else form.change(key+'Time', clock(date));
+  }
+  function openPicker(key, mode) {
+    const value = new Date(parseDateTime(values[key+'Date'], values[key+'Time']));
+    if (Platform.OS === 'android') {
+      DateTimePickerAndroid.open({
+        value, mode, display: mode === 'date' ? 'calendar' : 'clock', is24Hour: true,
+        onValueChange: (_, date) => applySelection(key, mode, date),
+      });
+    } else {
+      setEditing({key, mode, value});
+    }
+  }
   async function save(v){
     try {
       await saveSession({id:previous?.id,start:from,end:to,quality:v.quality?Number(v.quality):null,
@@ -45,16 +61,41 @@ export default function TrackScreen({navigation,route}){
     <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
       <Text style={heading}>Waktu sesi</Text><Text style={{color:COLORS.primary}}>{from!=null && to>from?'Durasi '+formatDuration((to-from)/3600000):'—'}</Text>
     </View>
-    <View style={{flexDirection:'row',gap:10}}>{[['start','Mulai tidur'],['end','Bangun']].map(([key,label])=><Pressable key={key} accessibilityRole="button" onPress={()=>setEditing(editing===key?null:key)} style={{flex:1,padding:14,borderRadius:16,backgroundColor:'white',borderWidth:1,borderColor:COLORS.border,gap:6}}>
-      <Text style={{color:COLORS.muted}}>{label}</Text><Text style={{...heading,fontSize:26}}>{values[key+'Time']}</Text><Text>{values[key+'Date']}</Text>
-    </Pressable>)}</View>
-    {editing && <View style={{gap:8}}><CustomInput label="Tanggal (YYYY-MM-DD)" {...form.field(editing+'Date')}/><CustomInput label="Jam (HH:mm)" {...form.field(editing+'Time')}/></View>}
-    <Text style={{color:COLORS.muted,fontSize:12}}>Ketuk waktu untuk mengubah tanggal dan jam.</Text>
+    <View style={{flexDirection:'row',gap:10}}>{[['start','Mulai tidur'],['end','Bangun']].map(([key,label])=><View key={key} style={{flex:1,padding:14,borderRadius:16,backgroundColor:'white',borderWidth:1,borderColor:COLORS.border}}>
+      <Text style={{color:COLORS.muted}}>{label}</Text>
+      <Pressable accessibilityRole="button" accessibilityLabel={'Jam '+label+', '+values[key+'Time']} onPress={()=>openPicker(key,'time')} style={{minHeight:44,justifyContent:'center'}}>
+        <Text style={{...heading,fontSize:26}}>{values[key+'Time']}</Text>
+      </Pressable>
+      <Pressable accessibilityRole="button" accessibilityLabel={'Tanggal '+label+', '+values[key+'Date']} onPress={()=>openPicker(key,'date')} style={{minHeight:44,justifyContent:'center'}}>
+        <Text style={{color:COLORS.primary}}>{values[key+'Date']}</Text>
+      </Pressable>
+    </View>)}</View>
+    {editing && <Modal visible transparent animationType="fade" onRequestClose={()=>setEditing(null)}>
+      <View style={{flex:1,justifyContent:'center',padding:16,backgroundColor:'#21153599'}}>
+        <View style={{backgroundColor:'white',borderRadius:20,padding:16,gap:10}}>
+          <Text style={heading}>{editing.mode==='date'?'Tanggal':'Jam'} {editing.key==='start'?'mulai tidur':'bangun'}</Text>
+          <DateTimePicker themeVariant="light" mode={editing.mode} value={editing.value} display={editing.mode==='date'?'inline':'spinner'}
+            onValueChange={(_,value)=>setEditing(current=>current && {...current,value})}/>
+          <Button title="Pilih" onPress={()=>{applySelection(editing.key,editing.mode,editing.value);setEditing(null);}}/>
+          <Button title="Batal" variant="outline" onPress={()=>setEditing(null)}/>
+        </View>
+      </View>
+    </Modal>}
+    <Text style={{color:COLORS.muted,fontSize:12}}>Ketuk tanggal untuk membuka kalender atau jam untuk memilih waktu.</Text>
     {Object.keys(form.errors).some(k=>form.errors[k] && /Date|Time/.test(k)) && <Text accessibilityRole="alert" style={{color:COLORS.danger}}>{Object.entries(form.errors).find(([k,v])=>v && /Date|Time/.test(k))[1]}</Text>}
     <Text style={heading}>Kualitas tidur</Text><CategoryChips options={['1','2','3','4','5']} value={values.quality} onChange={v=>form.change('quality',v)}/>
-    <Text style={{color:COLORS.muted,fontSize:12}}>1 · Sangat buruk                                      5 · Sangat baik</Text>
+    <View style={{flexDirection:'row',gap:8}}>
+      <Text style={{flex:1,color:COLORS.muted,fontSize:12}}>1 · Sangat buruk</Text>
+      <Text style={{flex:1,textAlign:'right',color:COLORS.muted,fontSize:12}}>5 · Sangat baik</Text>
+    </View>
     <Text style={heading}>Faktor sebelum tidur</Text>
-    <View style={{flexDirection:'row',gap:10}}>{[['caffeine','Kafein (shots)'],['screenMinutes','Waktu layar (menit)']].map(([key,label])=><View key={key} style={{flex:1}}><CustomInput label={label} keyboardType="number-pad" {...form.field(key)}/></View>)}</View>
+    <View style={{flexDirection:'row',gap:10}}>
+      {[['caffeine','Kafein','shots'],['screenMinutes','Waktu layar','menit']].map(([key,label,unit])=>(
+        <View key={key} style={{flex:1}}>
+          <CustomInput label={label} unit={unit} keyboardType="number-pad" {...form.field(key)}/>
+        </View>
+      ))}
+    </View>
     <Text>Tingkat stres</Text><CategoryChips options={['Rendah','Sedang','Tinggi']} value={values.stress} onChange={v=>form.change('stress',v)}/>
     <CustomInput label="Catatan" placeholder="Contoh: terbangun tengah malam" {...form.field('notes')}/>
     <Button title={previous?'Simpan perubahan':'Simpan sesi'} onPress={()=>form.submit(save)}/>

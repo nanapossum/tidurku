@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Text, View, Pressable } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { useSleep } from '../context/SleepContext';
 import Screen from '../components/Screen';
 import Button from '../components/Button';
@@ -39,7 +40,7 @@ export default function HomeScreen({navigation}) {
   const dailyHours=new Map();
   for(const s of sessions){const day=localDateValue(new Date(s.end));dailyHours.set(day,(dailyHours.get(day)||0)+durationHours(s));}
   const debt=last && [0,1,2].every(offset=>{const d=new Date(last.end);d.setDate(d.getDate()-offset);const h=dailyHours.get(localDateValue(d));return h>0 && h<6;});
-  return <Screen title="Dashboard" background={require('../../assets/design/night.png')} tabs>
+  return <Screen title="Dashboard" background={require('../../assets/design/night.png')} backgroundEdgeColors={['#1C103D', '#1C103D']} tabs>
     <View style={{flexDirection:'row',padding:4,borderRadius:24,backgroundColor:COLORS.surface}}>
       {['Ringkasan','Target & Rekomendasi'].map((label,i)=><Pressable key={label} accessibilityRole="tab" onPress={()=>setTarget(Boolean(i))}
         style={{flex:1,alignItems:'center',justifyContent:'center',minHeight:38,borderRadius:20,backgroundColor:target===Boolean(i)?COLORS.primary:COLORS.surface}}>
@@ -47,7 +48,11 @@ export default function HomeScreen({navigation}) {
     </View>
     {target ? <>
       <HeroCard label="TARGET DURASI TIDUR" value={targetHours+' jam'} detail={'Jam tidur ideal · '+bedtime}>
-        <Button variant="outline" title="Ubah target" onPress={()=>navigation.navigate('EditTarget')}/>
+        <Pressable accessibilityRole="button" accessibilityLabel="Ubah target" onPress={()=>navigation.navigate('EditTarget')}
+          style={({pressed})=>({minWidth:112,minHeight:44,borderRadius:22,paddingHorizontal:11,flexDirection:'row',gap:8,alignItems:'center',justifyContent:'center',backgroundColor:COLORS.surface,opacity:pressed?0.7:1})}>
+          <Ionicons name="pencil-outline" size={16} color={COLORS.primary}/>
+          <Text style={{fontFamily:'Nunito',fontSize:12,color:COLORS.primary}}>Ubah target</Text>
+        </Pressable>
       </HeroCard>
       <Card title="Untuk malam ini" subtitle={last && durationHours(last)<Number(targetHours)?'Coba bersiap tidur 30 menit lebih awal.':'Pertahankan jadwal tidur yang konsisten.'}/>
       <Button variant="outline" title="Lihat wawasan lingkungan" onPress={()=>navigation.navigate('Wawasan')}/>

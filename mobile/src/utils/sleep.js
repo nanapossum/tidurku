@@ -2,10 +2,10 @@ export function durationHours({ start, end }) {
   return (end - start) / 3600000;
 }
 
-export function formatDuration(hours) {
+export function formatDuration(hours, { showZeroMinutes = false } = {}) {
   const minutes = Math.round(hours * 60);
   const remainder = minutes % 60;
-  return remainder ? `${Math.floor(minutes / 60)} j ${remainder} m` : `${minutes / 60} j`;
+  return remainder || showZeroMinutes ? `${Math.floor(minutes / 60)} j ${remainder} m` : `${minutes / 60} j`;
 }
 
 export function formatDate(timestamp) {

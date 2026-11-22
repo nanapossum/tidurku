@@ -2,7 +2,7 @@ import { Pressable,Text } from 'react-native';
 import { COLORS } from '../theme/colors';
 const variants = {
   primary:[COLORS.primary,'white'], outline:[COLORS.surface,COLORS.primary],
-  danger:['#FFE5F0',COLORS.danger], lavender:[COLORS.secondary,COLORS.text], night:[COLORS.hero,'white'],
+  danger:['#FFE5F0',COLORS.danger], destructive:[COLORS.danger,'white'], lavender:[COLORS.secondary,COLORS.text], night:[COLORS.hero,'white'],
 };
 export default function Button({ title,onPress,variant='primary',disabled=false }) {
   const [backgroundColor,color]=variants[variant];
