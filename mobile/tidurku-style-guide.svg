@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="2358" viewBox="0 0 1584 2358">
+<defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#1C103D"/><stop offset=".68" stop-color="#542184"/><stop offset="1" stop-color="#6632BC"/></linearGradient><linearGradient id="planet" x2=".8" y2="1"><stop stop-color="#FFA183"/><stop offset=".55" stop-color="#F52D91"/><stop offset="1" stop-color="#6632BC"/></linearGradient><linearGradient id="tracker-sky" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#1C103D"/><stop offset=".47" stop-color="#452479"/><stop offset=".78" stop-color="#A44999"/><stop offset="1" stop-color="#FFA183"/>
+    </linearGradient><linearGradient id="tracker-calm" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#352746"/><stop offset=".6" stop-color="#544563"/><stop offset="1" stop-color="#675572"/></linearGradient></defs>
+<rect x="0" y="0" width="1584" height="2358" rx="0" fill="#EDE3F8"/>
+<g id="arah-visual" transform="translate(32 32)">
+<rect x="0" y="0" width="1520" height="280" rx="26" fill="#FBF8FF" stroke="#E7DDF1"/>
+<rect x="0" y="0" width="1520" height="280" rx="26" fill="url(#tracker-sky)"/>
+<text x="44" y="52" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">TIDURKU  /  STYLE GUIDE</text>
+<text x="44" y="132" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="58" font-weight="800" text-anchor="start">Malam Lavender</text>
+<text x="47" y="182" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Dashboard menjadi pusat untuk melihat skor, pola, dan target tidur.</text>
+<text x="47" y="211" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Pencatatan dan pengaturan profil memakai nuansa ungu yang lebih tenang.</text>
+<g transform="translate(1087 26)"><ellipse cx="160" cy="112" rx="146" ry="57" transform="rotate(-14 160 112)" stroke="#CDB6FF" stroke-opacity=".5" fill="none"/><ellipse cx="160" cy="112" rx="125" ry="45" transform="rotate(-14 160 112)" stroke="#CDB6FF" stroke-opacity=".28" fill="none"/><circle cx="160" cy="110" r="63" fill="url(#planet)"/><path d="M51 145Q163 179 280 68" stroke="#59DCE8" stroke-width="6" stroke-linecap="round" fill="none"/><circle cx="273" cy="60" r="13" fill="#FFC75A"/><circle cx="80" cy="66" r="3" fill="#F2EAFF"/><circle cx="211" cy="36" r="2" fill="#F2EAFF"/><circle cx="297" cy="156" r="2" fill="#F2EAFF"/></g>
+</g>
+<g id="palet-warna" transform="translate(32 336)">
+<rect x="0" y="0" width="1520" height="1006" rx="26" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="32" y="56" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="32" font-weight="800">Palet warna</text>
+<text x="32" y="87" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">Warna PAWM diberi nama sesuai COLORS di React Native. Warna tambahan ada di palet yang sama.</text>
+<text x="32" y="130" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800">Primary, secondary, dan aksen</text>
+<rect x="32" y="141" width="1456" height="1" rx="0" fill="#E7DDF1"/>
+<rect x="32" y="155" width="224" height="48" rx="10" fill="#6632BC" stroke="#E7DDF1"/>
+<text x="44" y="185" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#6632BC</text>
+<text x="32" y="227" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">primary</text>
+<text x="32" y="247" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Tombol utama dan tab aktif</text>
+<rect x="276" y="155" width="224" height="48" rx="10" fill="#CDB6FF" stroke="#E7DDF1"/>
+<text x="288" y="185" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#CDB6FF</text>
+<text x="276" y="227" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">secondary</text>
+<text x="276" y="247" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Aksi di latar gelap dan grafik</text>
+<rect x="520" y="155" width="224" height="48" rx="10" fill="#59DCE8" stroke="#E7DDF1"/>
+<text x="532" y="185" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#59DCE8</text>
+<text x="520" y="227" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">accent · Cyan</text>
+<text x="520" y="247" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Orbit dan aksen ilustrasi</text>
+<rect x="764" y="155" width="224" height="48" rx="10" fill="#FFC75A" stroke="#E7DDF1"/>
+<text x="776" y="185" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#FFC75A</text>
+<text x="764" y="227" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Accent Gold</text>
+<text x="764" y="247" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Sorotan dan ikon perhatian</text>
+<rect x="1008" y="155" width="224" height="48" rx="10" fill="#F52D91" stroke="#E7DDF1"/>
+<text x="1020" y="185" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#F52D91</text>
+<text x="1008" y="227" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Accent Pink</text>
+<text x="1008" y="247" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Aksen ilustrasi kosmik</text>
+<rect x="1252" y="155" width="224" height="48" rx="10" fill="#FFA183" stroke="#E7DDF1"/>
+<text x="1264" y="185" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#FFA183</text>
+<text x="1252" y="227" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Accent Peach</text>
+<text x="1252" y="247" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Ujung gradien langit</text>
+<text x="32" y="294" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800">Netral, permukaan, dan teks</text>
+<rect x="32" y="305" width="1456" height="1" rx="0" fill="#E7DDF1"/>
+<rect x="32" y="319" width="224" height="48" rx="10" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="44" y="349" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#FBF8FF</text>
+<text x="32" y="391" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">background</text>
+<text x="32" y="411" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Latar layar terang</text>
+<rect x="276" y="319" width="224" height="48" rx="10" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="288" y="349" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#FFFFFF</text>
+<text x="276" y="391" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">card</text>
+<text x="276" y="411" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Kartu dan bidang isian</text>
+<rect x="520" y="319" width="224" height="48" rx="10" fill="#F2EAFF" stroke="#E7DDF1"/>
+<text x="532" y="349" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#F2EAFF</text>
+<text x="520" y="391" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Muted Surface</text>
+<text x="520" y="411" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Latar sekunder dan opsi</text>
+<rect x="764" y="319" width="224" height="48" rx="10" fill="#25183C" stroke="#E7DDF1"/>
+<text x="776" y="349" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#25183C</text>
+<text x="764" y="391" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">text</text>
+<text x="764" y="411" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Teks dan angka utama</text>
+<rect x="1008" y="319" width="224" height="48" rx="10" fill="#62536F" stroke="#E7DDF1"/>
+<text x="1020" y="349" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#62536F</text>
+<text x="1008" y="391" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">muted</text>
+<text x="1008" y="411" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Label dan keterangan</text>
+<rect x="1252" y="319" width="224" height="48" rx="10" fill="#D8CCE7" stroke="#E7DDF1"/>
+<text x="1264" y="349" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#D8CCE7</text>
+<text x="1252" y="391" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">border</text>
+<text x="1252" y="411" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Batas field dan navbar</text>
+<rect x="32" y="424" width="224" height="48" rx="10" fill="#30185A" stroke="#E7DDF1"/>
+<text x="44" y="454" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#30185A</text>
+<text x="32" y="496" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Dark Surface</text>
+<text x="32" y="516" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Kartu utama di atas langit</text>
+<rect x="276" y="424" width="224" height="48" rx="10" fill="#1C103D" stroke="#E7DDF1"/>
+<text x="288" y="454" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#1C103D</text>
+<text x="276" y="496" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Night</text>
+<text x="276" y="516" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Dasar area gelap</text>
+<rect x="520" y="424" width="224" height="48" rx="10" fill="#E7DDF1" stroke="#E7DDF1"/>
+<text x="532" y="454" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#E7DDF1</text>
+<text x="520" y="496" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Divider</text>
+<text x="520" y="516" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Pemisah antarelemen</text>
+<rect x="764" y="424" width="224" height="48" rx="10" fill="#3E2B5A" stroke="#E7DDF1"/>
+<text x="776" y="454" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#3E2B5A</text>
+<text x="764" y="496" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Toast</text>
+<text x="764" y="516" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Latar toast dengan border putih</text>
+<text x="32" y="557" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800">Status</text>
+<rect x="32" y="568" width="1456" height="1" rx="0" fill="#E7DDF1"/>
+<rect x="32" y="584" width="270" height="48" rx="10" fill="#FFE398"/>
+<text x="44" y="614" fill="#613D08" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#FFE398  /  #613D08</text>
+<text x="32" y="656" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Warning</text>
+<text x="32" y="677" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Utang tidur</text>
+<rect x="324" y="584" width="270" height="48" rx="10" fill="#FFF1CA"/>
+<text x="336" y="614" fill="#75500C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#FFF1CA  /  #75500C</text>
+<text x="324" y="656" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Warning Soft</text>
+<text x="324" y="677" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Target di luar acuan</text>
+<rect x="616" y="584" width="270" height="48" rx="10" fill="#FFE5F0"/>
+<text x="628" y="614" fill="#9F2358" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#FFE5F0  /  #9F2358</text>
+<text x="616" y="656" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">danger</text>
+<text x="616" y="677" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Validasi dan hapus</text>
+<rect x="908" y="584" width="270" height="48" rx="10" fill="#E2F5FF"/>
+<text x="920" y="614" fill="#235579" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#E2F5FF  /  #235579</text>
+<text x="908" y="656" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Info</text>
+<text x="908" y="677" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Keterangan tambahan</text>
+<rect x="1200" y="584" width="270" height="48" rx="10" fill="#D9F7EA"/>
+<text x="1212" y="614" fill="#195B49" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="800">#D9F7EA  /  #195B49</text>
+<text x="1200" y="656" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Success</text>
+<text x="1200" y="677" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">Usulan untuk status berhasil</text>
+<text x="32" y="728" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800">Gradien</text>
+<rect x="32" y="739" width="1456" height="1" rx="0" fill="#E7DDF1"/>
+<rect x="32" y="755" width="472" height="72" rx="13" fill="url(#tracker-sky)"/>
+<text x="32" y="855" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800">Langit Dashboard</text>
+<text x="32" y="878" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">#1C103D → #452479 → #A44999 → #FFA183</text>
+<rect x="524" y="755" width="472" height="72" rx="13" fill="url(#tracker-calm)"/>
+<text x="524" y="855" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800">Catat Tidur dan Profil</text>
+<text x="524" y="878" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">#352746 → #544563 → #675572</text>
+<rect x="1016" y="755" width="472" height="72" rx="13" fill="url(#sky)"/>
+<text x="1016" y="855" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800">Kartu malam</text>
+<text x="1016" y="878" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400">#1C103D → #542184 → #6632BC</text>
+<rect x="32" y="914" width="1456" height="57" rx="14" fill="#F2EAFF"/>
+<text x="50" y="948" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400">Grafik memakai primary untuk batang terpilih dan secondary untuk batang lain. Toast memakai teks dan border putih.</text>
+</g>
+<g id="tipografi" transform="translate(32 1366)">
+<rect x="0" y="0" width="748" height="724" rx="26" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="28" y="55" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="start">Tipografi</text>
+<text x="29" y="86" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Nunito untuk judul dan angka. Inter untuk isi dan keterangan.</text>
+<text x="28" y="178" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="56" font-weight="800" text-anchor="start">22:14</text>
+<text x="389" y="174" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Display / Jam tracker</text>
+<text x="389" y="193" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Nunito · 56 / 64</text>
+<rect x="28" y="205" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="253" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="42" font-weight="800" text-anchor="start">84</text>
+<text x="389" y="249" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Display / Skor Dashboard</text>
+<text x="389" y="268" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Nunito · 42 / 48</text>
+<rect x="28" y="280" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="319" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Dashboard</text>
+<text x="389" y="315" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Screen Title / Judul layar</text>
+<text x="389" y="334" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Nunito · 24 / 30</text>
+<rect x="28" y="346" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="378" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Faktor sebelum tidur</text>
+<text x="389" y="374" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Heading / Judul bagian</text>
+<text x="389" y="393" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Nunito · 20 / 24</text>
+<rect x="28" y="405" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="434" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Simpan perubahan</text>
+<text x="389" y="430" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Body / Teks isi</text>
+<text x="389" y="449" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Inter · 15 / 20</text>
+<rect x="28" y="461" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="487" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Nama lengkap</text>
+<text x="389" y="483" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Small / Teks sekunder</text>
+<text x="389" y="502" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Inter · 14 / 20</text>
+<rect x="28" y="514" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="540" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Lihat pola tidur mingguan.</text>
+<text x="389" y="536" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Caption / Keterangan</text>
+<text x="389" y="555" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Inter · 13 / 18</text>
+<rect x="28" y="567" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="593" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">30 menit sebelum jam tidur ideal.</text>
+<text x="389" y="589" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Supporting / Status ringkas</text>
+<text x="389" y="608" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Inter · 12 / 17</text>
+<rect x="28" y="620" width="692" height="1" rx="0" fill="#E7DDF1"/>
+<text x="28" y="646" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Ringkasan</text>
+<text x="389" y="642" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">Micro / Navigasi dan grafik</text>
+<text x="389" y="661" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Inter · 11 / 16</text>
+<text x="28" y="694" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Skala dasar PAWM ditambah ukuran layar dan angka utama TidurKu.</text>
+</g>
+<g id="layout-radius" transform="translate(804 1366)">
+<rect x="0" y="0" width="748" height="724" rx="26" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="28" y="55" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="start">Layout, spacing, dan radius</text>
+<text x="29" y="86" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Acuan PAWM: Android Compact 360 × 800 (1×).</text>
+<text x="28" y="130" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="start">Skala jarak</text>
+<rect x="28" y="149" width="12" height="11" rx="4" fill="#6632BC"/>
+<text x="141" y="159" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">4 px</text>
+<text x="213" y="159" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Detail kecil</text>
+<rect x="28" y="179" width="24" height="11" rx="4" fill="#6632BC"/>
+<text x="141" y="189" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">8 px</text>
+<text x="213" y="189" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Label ke field</text>
+<rect x="28" y="209" width="36" height="11" rx="4" fill="#6632BC"/>
+<text x="141" y="219" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">12 px</text>
+<text x="213" y="219" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Jarak antarkontrol</text>
+<rect x="28" y="239" width="48" height="11" rx="4" fill="#6632BC"/>
+<text x="141" y="249" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">16 px</text>
+<text x="213" y="249" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Padding isi kartu</text>
+<rect x="28" y="269" width="72" height="11" rx="4" fill="#6632BC"/>
+<text x="141" y="279" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">24 px</text>
+<text x="213" y="279" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Margin layar / antarbagian</text>
+<rect x="28" y="299" width="96" height="11" rx="4" fill="#6632BC"/>
+<text x="141" y="309" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">32 px</text>
+<text x="213" y="309" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Jarak antarkelompok</text>
+<text x="28" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="start">Sudut</text>
+<rect x="28" y="393" width="109" height="54" rx="12" fill="#F2EAFF" stroke="#D8CCE7"/>
+<text x="82.5" y="426" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">12</text>
+<text x="28" y="474" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Field dan toast</text>
+<rect x="166" y="393" width="109" height="54" rx="18" fill="#F2EAFF" stroke="#D8CCE7"/>
+<text x="220.5" y="426" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">18</text>
+<text x="166" y="474" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Kartu pendukung</text>
+<rect x="304" y="393" width="109" height="54" rx="26" fill="#F2EAFF" stroke="#D8CCE7"/>
+<text x="358.5" y="426" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">26</text>
+<text x="304" y="474" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Kartu skor dan target</text>
+<rect x="442" y="393" width="109" height="54" rx="32" fill="#F2EAFF" stroke="#D8CCE7"/>
+<text x="496.5" y="426" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">32</text>
+<text x="442" y="474" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Permukaan layar</text>
+<rect x="580" y="393" width="109" height="54" rx="24" fill="#F2EAFF" stroke="#D8CCE7"/>
+<text x="634.5" y="426" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">24</text>
+<text x="580" y="474" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Pill · tinggi 48</text>
+<rect x="28" y="505" width="692" height="153" rx="18" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="46" y="536" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Ruang aman layar</text>
+<text x="46" y="565" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Mockup TidurKu: 390 × 844 (1×), dengan margin kiri–kanan 24.</text>
+<text x="46" y="589" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Tab Dashboard menonjol ke atas. Konten berakhir sebelum area itu.</text>
+<text x="46" y="613" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Kontrol utama memakai tinggi 48 px. Jaga area tekan tetap lega.</text>
+</g>
+<g id="acuan-pawm" transform="translate(32 2114)">
+<rect width="1520" height="212" rx="26" fill="#FBF8FF" stroke="#E7DDF1"/>
+<text x="30" y="53" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="26" font-weight="800">Komponen dan varian</text>
+<text x="30" y="86" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="15">Bagian berikutnya menurut PAWM Modul 1, slide 29–31: Button, Card, Input, Chip, dan HeaderBar.</text>
+<text x="30" y="116" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="15">Susun elemen berulang sebagai instance dan gunakan Auto Layout pada tiap kelompok layar.</text>
+<text x="30" y="146" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="15">Tabel pengumpulan mencatat nama komponen, layar yang memakainya, dan props.</text>
+<text x="30" y="177" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="700">Pembuatan komponen menyusul.</text>
+</g>
+</svg>
