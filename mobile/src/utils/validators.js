@@ -20,8 +20,8 @@ export function parseDateTime(date, time) {
 export function validateProfile({ name, age }) {
   const errors = {};
   if (name.trim().length < 2) errors.name = 'Nama minimal 2 karakter.';
-  if (!/^\d{1,3}$/.test(age.trim()) || Number(age) < 1 || Number(age) > 120) {
-    errors.age = 'Masukkan usia 1–120 tahun.';
+  if (!/^\d{1,3}$/.test(age.trim()) || Number(age) < 10 || Number(age) > 120) {
+    errors.age = 'Masukkan usia 10–120 tahun.';
   }
   return errors;
 }
@@ -57,8 +57,8 @@ export function validateSession(values, sessions) {
 export function validateSettings({ targetHours, bedtime }) {
   const errors = {};
   const hours = Number(targetHours.replace(',', '.'));
-  if (!/^\d+(?:[.,]\d+)?$/.test(targetHours) || hours < 1 || hours > 24) {
-    errors.targetHours = 'Masukkan target antara 1 dan 24 jam.';
+  if (!/^\d+(?:[.,]\d+)?$/.test(targetHours) || hours < 4 || hours > 12) {
+    errors.targetHours = 'Masukkan target antara 4 dan 12 jam.';
   }
   if (!TIME.test(bedtime)) errors.bedtime = 'Gunakan format HH:mm, misalnya 22:30.';
   return errors;

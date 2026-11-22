@@ -3,7 +3,6 @@ import { View, Text, ScrollView, ImageBackground, Pressable, KeyboardAvoidingVie
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { Ionicons } from '@expo/vector-icons';
-import { DEMO_ACCOUNT } from '../data/dummy';
 import Button from '../components/Button';
 import CustomInput from '../components/CustomInput';
 import { useSleep } from '../context/SleepContext';
@@ -20,9 +19,14 @@ export default function LoginScreen({navigation}) {
   const form=useForm({name:'',age:'',email:'',password:''},values=>validateAccount(values,registering));
   const title=registering?'Buat akun':'Masuk';
   function switchMode() {setRegistering(!registering);setMessage('');setVisible(false);form.reset();}
-  function submit(values) {
-    if(registering && !register(values)) setMessage('Email sudah terdaftar.');
-    if(!registering && !login(values)) setMessage('Email atau kata sandi belum sesuai.');
+  async function submit(values) {
+    setMessage('');
+    try {
+      if (registering) await register(values);
+      else await login(values);
+    } catch (error) {
+      setMessage(error.message);
+    }
   }
   return <KeyboardAvoidingView style={{flex:1,backgroundColor:'white'}} behavior={Platform.OS==='ios'?'padding':undefined}>
     <StatusBar style="light"/>
@@ -44,7 +48,6 @@ export default function LoginScreen({navigation}) {
         {registering && <CustomInput label="Usia" placeholder="Contoh: 21" keyboardType="number-pad" {...form.field('age')}/>}
         <Button title={registering?'Daftar':'Masuk'} onPress={()=>form.submit(submit)}/>
         <Text accessibilityRole="button" onPress={switchMode} style={{textAlign:'center',padding:12,color:COLORS.primary,fontFamily:'Nunito'}}>{registering?'Sudah punya akun? Masuk':'Belum punya akun? Daftar'}</Text>
-        {!registering && <Text accessibilityRole="button" onPress={()=>login(DEMO_ACCOUNT)} style={{textAlign:'center',fontFamily:'Inter',color:COLORS.muted,padding:8}}>Masuk sebagai demo</Text>}
       </View>
     </ScrollView>
   </KeyboardAvoidingView>;

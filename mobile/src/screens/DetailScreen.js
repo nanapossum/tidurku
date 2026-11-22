@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {Modal,Text,View} from 'react-native';
+import {Alert,Modal,Text,View} from 'react-native';
 import Card from '../components/Card';
 import Button from '../components/Button';
 import Screen from '../components/Screen';
@@ -25,7 +25,7 @@ export default function DetailScreen({navigation,route}){
       <View style={{flex:1,backgroundColor:'#21153599',justifyContent:'flex-end'}}><View style={{backgroundColor:'white',borderRadius:24,padding:24,paddingBottom:40,gap:12}}>
         <Text style={{fontFamily:'Nunito',fontSize:22,color:COLORS.text}}>Hapus sesi tidur?</Text><Text>Ringkasan tidur akan diperbarui.</Text>
         <Card title={formatDate(end)} subtitle={clock(start)+' – '+clock(end)}/>
-        <Button title="Hapus sesi" variant="danger" onPress={()=>{setConfirm(false);deleteSession(session.id);navigation.goBack();}}/>
+        <Button title="Hapus sesi" variant="danger" onPress={async()=>{try{await deleteSession(session.id);setConfirm(false);navigation.goBack();}catch(error){setConfirm(false);Alert.alert('Sesi belum terhapus',error.message);}}}/>
         <Button title="Batal" variant="outline" onPress={()=>setConfirm(false)}/>
       </View></View>
     </Modal>

@@ -13,6 +13,7 @@ export function formatDate(timestamp) {
 }
 
 export function sleepScore(session, targetHours) {
+  if (typeof session.score === 'number') return session.score;
   const durationScore = Math.min(durationHours(session) / Number(targetHours), 1);
   if (!session.quality) return Math.round(durationScore * 100);
   return Math.round(100 * (durationScore * 0.7 + session.quality / 5 * 0.3));

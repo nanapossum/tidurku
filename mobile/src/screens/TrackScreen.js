@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {Pressable,Text,View} from 'react-native';
+import {Pressable,Text,View,Alert} from 'react-native';
 import Screen from '../components/Screen';
 import Button from '../components/Button';
 import CustomInput from '../components/CustomInput';
@@ -30,11 +30,15 @@ export default function TrackScreen({navigation,route}){
   const values=form.values;
   const from=parseDateTime(values.startDate,values.startTime),to=parseDateTime(values.endDate,values.endTime);
   const heading={fontFamily:'Nunito',fontSize:18,color:COLORS.text};
-  function save(v){
-    saveSession({id:previous?.id||String(from),start:from,end:to,quality:v.quality?Number(v.quality):null,
-      stress:v.stress,notes:v.notes.trim(),caffeine:Number(v.caffeine),screenMinutes:Number(v.screenMinutes)});
-    if(previous)navigation.goBack();
-    else navigation.popTo('Main',{screen:'Dashboard'});
+  async function save(v){
+    try {
+      await saveSession({id:previous?.id,start:from,end:to,quality:v.quality?Number(v.quality):null,
+        stress:v.stress,notes:v.notes.trim(),caffeine:Number(v.caffeine),screenMinutes:Number(v.screenMinutes)});
+      if(previous)navigation.goBack();
+      else navigation.popTo('Main',{screen:'Dashboard'});
+    } catch (error) {
+      Alert.alert('Tidak dapat menyimpan sesi', error.message);
+    }
   }
   return <Screen title={previous?'Ubah sesi':tracking?'Tinjau sesi tidur':'Catat manual'} onBack={navigation.goBack}
     subtitle={tracking?'Koreksi waktunya bila perlu sebelum menyimpan.':'Isi tanggal dan jam tidur serta bangun.'}>

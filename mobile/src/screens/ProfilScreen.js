@@ -1,4 +1,4 @@
-import { Image,Text,View,Switch } from 'react-native';
+import { Image,Text,View,Switch,Alert } from 'react-native';
 import Screen from '../components/Screen';
 import Button from '../components/Button';
 import {useSleep} from '../context/SleepContext';
@@ -21,7 +21,7 @@ export default function ProfilScreen({navigation}){
     <View style={{backgroundColor:COLORS.surface,borderRadius:20,padding:18,flexDirection:'row',alignItems:'center',gap:10}}>
       <View style={{flex:1,gap:5}}><Text style={{fontFamily:'Nunito',fontSize:17}}>Pengingat tidur</Text>
       <Text style={{color:COLORS.muted}}>{account.settings.reminder?'Aktif · Setiap hari, '+reminderTime(account.settings):'Nonaktif'}</Text></View>
-      <Switch accessibilityLabel="Pengingat tidur" value={account.settings.reminder} onValueChange={reminder=>saveSettings({...account.settings,reminder})}/>
+      <Switch accessibilityLabel="Pengingat tidur" value={account.settings.reminder} onValueChange={async reminder=>{try{await saveSettings({...account.settings,reminder});}catch(error){Alert.alert('Pengaturan belum tersimpan',error.message);}}}/>
     </View>
   </Screen>;
 }
