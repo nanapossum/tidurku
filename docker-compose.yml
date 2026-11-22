@@ -1,12 +1,24 @@
+
 services:
   core-service:
     build: ./core-service
     restart: unless-stopped
-    env_file: .env            # rahasia, jangan di-commit
+    env_file:
+      - .env
     volumes:
-      - ./data:/data          # database SQLite
-    mem_limit: 256m           # jaga STB tidak hang
+      - ./data:/data
+    mem_limit: 256m
     cpus: 0.5
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
 
   gateway:
     image: nginx:1.28-alpine
@@ -16,5 +28,7 @@ services:
     volumes:
       - ./gateway/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     depends_on:
-      - core-service
+      core-service:
+        condition: service_healthy
     mem_limit: 64m
+    cpus: 0.25

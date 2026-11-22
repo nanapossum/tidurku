@@ -1,0 +1,1247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2190" height="7156" viewBox="0 0 2190 7156">
+<defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#1C103D"/><stop offset=".68" stop-color="#542184"/><stop offset="1" stop-color="#6632BC"/></linearGradient><linearGradient id="planet" x2=".8" y2="1"><stop stop-color="#FFA183"/><stop offset=".55" stop-color="#F52D91"/><stop offset="1" stop-color="#6632BC"/></linearGradient>
+    <linearGradient id="tracker-sky" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#1C103D"/><stop offset=".47" stop-color="#452479"/><stop offset=".78" stop-color="#A44999"/><stop offset="1" stop-color="#FFA183"/>
+    </linearGradient>
+    <linearGradient id="tracker-moon" x2=".75" y2="1">
+      <stop stop-color="#F52D91"/><stop offset=".59" stop-color="#FF8AA0"/><stop offset="1" stop-color="#FFC75A"/>
+    </linearGradient>
+    <clipPath id="tracker-screen"><rect width="390" height="844" rx="32"/></clipPath>
+  <linearGradient id="tracker-calm" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#352746"/><stop offset=".6" stop-color="#544563"/><stop offset="1" stop-color="#675572"/></linearGradient></defs>
+<rect x="0" y="0" width="2190" height="7156" rx="0" fill="#1C103D"/>
+<text x="36" y="56" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="start">TidurKu  /  Dashboard Utama</text>
+<text x="36" y="92" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">High fidelity mobile  ·  25 frame  ·  390 × 844  ·  Data demo</text>
+<rect x="20" y="128" width="2150" height="960" rx="28" fill="#261749" stroke="#49356F"/>
+<text x="42" y="166" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Akun</text>
+<text x="42" y="192" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14">Welcome, masuk, dan buat akun</text>
+<g id="layar-1" transform="translate(42 224)">
+<text x="0" y="-15" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">01   Login / Registrasi - Welcome · UC-01</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">9:41</text><path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#25183C" stroke-width="1.6" stroke-linecap="round"/><rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#25183C"/><rect x="363" y="28" width="8" height="4" rx="1" fill="#25183C"/>
+<path d="M63 246Q40 170 106 117q66-53 133-12 65-4 95 58 42 83-3 147-24 58-103 88-70 28-125-20-34-30-40-132Z" fill="#E6D5FF"/>
+<path d="M53 330q38-42 77-10 42-40 82 10 43-25 82 12 28-9 50 10-36 48-91 66-129 35-200-88Z" fill="#F2EAFF"/>
+<path d="m75 151 5 11 11 5-11 5-5 11-5-11-11-5 11-5zm236 39 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#9B65D8"/><g fill="#9B65D8" opacity=".7"><circle cx="106" cy="119" r="2"/><circle cx="288" cy="120" r="2"/><circle cx="47" cy="267" r="2"/><circle cx="342" cy="264" r="2"/></g>
+<g transform="translate(46 135) scale(1.1)">
+      <ellipse cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25"/>
+      <path d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)"/>
+      <g fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)"/><circle cx="84" cy="166" r="7"/><circle cx="155" cy="215" r="8"/></g>
+      <path d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC"/>
+      <path d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF"/>
+      <circle cx="174" cy="180" r="4" fill="#59DCE8"/><circle cx="147" cy="188" r="3" fill="#6632BC"/>
+      <path d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF"/>
+      <path d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183"/>
+      <ellipse cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF"/>
+      <path d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA"/><ellipse cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA"/>
+      <path d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A"/>
+      <path d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8"/>
+      <circle cx="242" cy="119" r="3" fill="#FFC75A"/>
+    </g>
+<text x="195" y="489" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#62536F">Selamat datang di</text>
+<text x="195" y="548" font-family="Nunito, Arial, sans-serif" font-size="44" font-weight="800" text-anchor="middle" fill="#25183C">TidurKu</text>
+<text x="195" y="587" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="#62536F">Kenali pola tidurmu,</text>
+<text x="195" y="612" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="#62536F">satu malam demi satu malam.</text>
+<rect x="24" y="682" width="342" height="52" rx="26" fill="#6632BC"/><text x="195" y="715" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#FFFFFF">Mulai</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<g id="layar-2" transform="translate(470 224)">
+<text x="0" y="-15" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">02   Login / Registrasi - Masuk · UC-01</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<rect x="0" y="0" width="390" height="359" rx="34" fill="url(#tracker-sky)"/>
+<text x="24" y="34" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#FFFFFF">9:41</text><path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/><rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#FFFFFF"/><rect x="363" y="28" width="8" height="4" rx="1" fill="#FFFFFF"/>
+<path d="m38 62-8 8 8 8m-8-8h16" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="77" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle" fill="#FFFFFF">TidurKu</text>
+<path d="m75 151 5 11 11 5-11 5-5 11-5-11-11-5 11-5zm236 39 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#CDB6FF"/><g fill="#CDB6FF" opacity=".7"><circle cx="106" cy="119" r="2"/><circle cx="288" cy="120" r="2"/><circle cx="47" cy="267" r="2"/><circle cx="342" cy="264" r="2"/></g>
+<g data-role="auth-illustration" transform="translate(114 146) scale(0.60)">
+      <ellipse cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25"/>
+      <path d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)"/>
+      <g fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)"/><circle cx="84" cy="166" r="7"/><circle cx="155" cy="215" r="8"/></g>
+      <path d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC"/>
+      <path d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF"/>
+      <circle cx="174" cy="180" r="4" fill="#59DCE8"/><circle cx="147" cy="188" r="3" fill="#6632BC"/>
+      <path d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF"/>
+      <path d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183"/>
+      <ellipse cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF"/>
+      <path d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA"/><ellipse cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA"/>
+      <path d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A"/>
+      <path d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8"/>
+      <circle cx="242" cy="119" r="3" fill="#FFC75A"/>
+    </g>
+<rect x="0" y="297" width="390" height="547" rx="32" fill="#FFFFFF"/>
+<text x="24" y="345" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start" fill="#25183C">Masuk</text>
+<text x="24" y="373" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Lanjut lihat catatan dan pola tidurmu.</text>
+<text x="24" y="407" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Email</text><rect x="24" y="415" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="443" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">nama@contoh.id</text>
+<text x="24" y="474" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Kata sandi</text><rect x="24" y="482" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="510" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Masukkan kata sandi</text><path d="M325 33q8-10 16 0-8 10-16 0Zm8-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" transform="translate(0 471)" fill="none" stroke="#62536F" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="24" y="575" width="342" height="52" rx="26" fill="#6632BC"/><text x="195" y="608" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#FFFFFF">Masuk</text>
+<text x="195" y="657" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#6632BC">Belum punya akun? Daftar</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<g id="layar-3" transform="translate(898 224)">
+<text x="0" y="-15" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">03   Login / Registrasi - Buat Akun · UC-01</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<rect x="0" y="0" width="390" height="359" rx="34" fill="url(#tracker-sky)"/>
+<text x="24" y="34" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#FFFFFF">9:41</text><path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/><rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#FFFFFF"/><rect x="363" y="28" width="8" height="4" rx="1" fill="#FFFFFF"/>
+<path d="m38 62-8 8 8 8m-8-8h16" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="77" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle" fill="#FFFFFF">TidurKu</text>
+<path d="m75 151 5 11 11 5-11 5-5 11-5-11-11-5 11-5zm236 39 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#CDB6FF"/><g fill="#CDB6FF" opacity=".7"><circle cx="106" cy="119" r="2"/><circle cx="288" cy="120" r="2"/><circle cx="47" cy="267" r="2"/><circle cx="342" cy="264" r="2"/></g>
+<g data-role="auth-illustration" transform="translate(114 146) scale(0.60)">
+      <ellipse cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25"/>
+      <path d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)"/>
+      <g fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)"/><circle cx="84" cy="166" r="7"/><circle cx="155" cy="215" r="8"/></g>
+      <path d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC"/>
+      <path d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF"/>
+      <circle cx="174" cy="180" r="4" fill="#59DCE8"/><circle cx="147" cy="188" r="3" fill="#6632BC"/>
+      <path d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF"/>
+      <path d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183"/>
+      <ellipse cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF"/>
+      <path d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA"/><ellipse cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA"/>
+      <path d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A"/>
+      <path d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8"/>
+      <circle cx="242" cy="119" r="3" fill="#FFC75A"/>
+    </g>
+<rect x="0" y="297" width="390" height="547" rx="32" fill="#FFFFFF"/>
+<text x="24" y="345" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start" fill="#25183C">Buat akun</text>
+<text x="24" y="373" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Usia membantu menyiapkan target awal.</text>
+<text x="24" y="407" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Nama</text><rect x="24" y="415" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="443" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Nama lengkap</text>
+<text x="24" y="474" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Email</text><rect x="24" y="482" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="510" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">nama@contoh.id</text>
+<text x="24" y="541" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Kata sandi</text><rect x="24" y="549" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="577" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Masukkan kata sandi</text><path d="M325 33q8-10 16 0-8 10-16 0Zm8-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" transform="translate(0 538)" fill="none" stroke="#62536F" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="24" y="608" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Usia</text><rect x="24" y="616" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="644" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Contoh: 21</text><path d="M296 627v23" stroke="#D8CCE7"/><text x="351" y="644" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">tahun</text>
+<rect x="24" y="682" width="342" height="52" rx="26" fill="#6632BC"/><text x="195" y="715" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#FFFFFF">Daftar</text>
+<text x="195" y="767" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#6632BC">Sudah punya akun? Masuk</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<rect x="20" y="1128" width="2150" height="960" rx="28" fill="#261749" stroke="#49356F"/>
+<text x="42" y="1166" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Dashboard dan target</text>
+<text x="42" y="1192" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14">Dua subtab Dashboard, pengaturan target, dan wawasan lingkungan</text>
+<g id="layar-5" transform="translate(42 1224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">04   Dashboard - Ringkasan · UC-03</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="url(#tracker-sky)"/>
+<g clip-path="url(#tracker-screen)">
+<path d="M0 333Q90 288 172 327T390 311V567H0Z" fill="#57388D" opacity=".4"/>
+<path d="M0 512Q91 468 192 516T390 492V692H0Z" fill="#9B58A1" opacity=".35"/>
+<path d="M0 730Q104 704 160 725Q195 742 230 725Q286 704 390 730V844H0Z" fill="#1C103D"/>
+<g fill="#CDB6FF"><circle cx="15" cy="173" r="1.5"/><circle cx="307" cy="64" r="1"/><circle cx="344" cy="74" r="2"/><circle cx="371" cy="177" r="1.5"/><circle cx="210" cy="162" r="1"/></g>
+</g>
+<text x="26" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<text x="24" y="74" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Dashboard</text>
+<g data-role="dashboard-segments">
+<rect x="24" y="98" width="342" height="47" rx="22" fill="#F2EAFF"/>
+<rect x="28" y="102" width="143" height="39" rx="19" fill="#6632BC"/>
+<text x="99.5" y="127" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ringkasan</text>
+<text x="268.0" y="127" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Target &amp; Rekomendasi</text>
+</g>
+<text x="24" y="173" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Minggu, 22 November</text>
+<g transform="translate(0 64)">
+<rect x="24" y="130" width="342" height="172" rx="26" fill="#30185A" stroke="#8260B2"/>
+<g transform="translate(218 167) scale(0.72)"><ellipse cx="85" cy="58" rx="82" ry="32" transform="rotate(-22 85 58)" fill="none" stroke="#A764DD" opacity=".65"/><circle cx="85" cy="58" r="43" fill="url(#planet)"/><path d="M12 83Q79 108 156 36" fill="none" stroke="#59DCE8" stroke-width="5" stroke-linecap="round"/><circle cx="141" cy="18" r="9" fill="#FFC75A"/><path d="m23 25 4 7 7 3-7 3-4 7-3-7-7-3 7-3z" fill="#FFC75A"/><circle cx="43" cy="10" r="2" fill="#CDB6FF"/><circle cx="163" cy="76" r="2" fill="#CDB6FF"/></g>
+<text x="42" y="163" fill="#59DCE8" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start">SKOR TIDUR TERAKHIR</text>
+<text x="42" y="222" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="42" font-weight="800" text-anchor="start">84</text>
+<text x="114" y="220" fill="#CDB6FF" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">/ 100</text>
+<text x="42" y="263" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">7 j 30 m · 22:30 – 06:00</text>
+<rect x="24" y="316" width="342" height="172" rx="22" fill="#FFFFFF"/>
+<text x="40" y="345" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Skor mingguan</text>
+<rect x="242" y="329" width="108" height="29" rx="14" fill="#F2EAFF"/>
+<text x="290" y="348" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Lihat riwayat</text>
+<path d="m334 339 4 4-4 4" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="43" y="399" width="27" height="46" rx="8" fill="#CDB6FF"/>
+<text x="56" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sen</text>
+<rect x="88" y="389" width="27" height="56" rx="8" fill="#CDB6FF"/>
+<text x="101" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sel</text>
+<rect x="133" y="402" width="27" height="43" rx="8" fill="#CDB6FF"/>
+<text x="146" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Rab</text>
+<rect x="178" y="403" width="27" height="42" rx="8" fill="#CDB6FF"/>
+<text x="191" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Kam</text>
+<rect x="223" y="397" width="27" height="48" rx="8" fill="#CDB6FF"/>
+<text x="236" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Jum</text>
+<rect x="268" y="375" width="27" height="70" rx="8" fill="#CDB6FF"/>
+<text x="281" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sab</text>
+<rect x="313" y="362" width="27" height="83" rx="8" fill="#6632BC"/>
+<text x="326" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Min</text>
+<g aria-label="Peringatan utang tidur">
+<rect x="24" y="504" width="342" height="88" rx="18" fill="#FFE398" stroke="#E7AD3C"/>
+<circle cx="55" cy="533" r="17" fill="#FFC75A"/>
+<path d="M55 526l7 12H48l7-12Z M55 530v3m0 2.5h.01" fill="none" stroke="#613D08" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="82" y="531" fill="#613D08" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800">Utang tidur terdeteksi</text>
+<text x="82" y="552" fill="#613D08" font-family="Inter, Arial, sans-serif" font-size="12">Tidur kurang dari 6 jam selama 3 malam</text>
+<text x="82" y="571" fill="#613D08" font-family="Inter, Arial, sans-serif" font-size="12">berturut-turut. Coba tidur 30 menit lebih awal.</text>
+</g>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-11" transform="translate(470 1224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">05   Rekomendasi &amp; Target - Rekomendasi · UC-04</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="url(#tracker-sky)"/>
+<g clip-path="url(#tracker-screen)">
+<path d="M0 333Q90 288 172 327T390 311V567H0Z" fill="#57388D" opacity=".4"/>
+<path d="M0 512Q91 468 192 516T390 492V692H0Z" fill="#9B58A1" opacity=".35"/>
+<path d="M0 730Q104 704 160 725Q195 742 230 725Q286 704 390 730V844H0Z" fill="#1C103D"/>
+<g fill="#CDB6FF"><circle cx="15" cy="173" r="1.5"/><circle cx="307" cy="64" r="1"/><circle cx="344" cy="74" r="2"/><circle cx="371" cy="177" r="1.5"/><circle cx="210" cy="162" r="1"/></g>
+</g>
+<text x="26" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<text x="24" y="74" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Dashboard</text>
+<g data-role="dashboard-segments">
+<rect x="24" y="98" width="342" height="47" rx="22" fill="#F2EAFF"/>
+<text x="99.5" y="127" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ringkasan</text>
+<rect x="174" y="102" width="188" height="39" rx="19" fill="#6632BC"/>
+<text x="268.0" y="127" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Target &amp; Rekomendasi</text>
+</g>
+<g transform="translate(0 55)">
+<rect x="24" y="139" width="342" height="172" rx="26" fill="#30185A" stroke="#8260B2"/>
+<g transform="translate(224 150) scale(0.7)"><ellipse cx="85" cy="58" rx="82" ry="32" transform="rotate(-22 85 58)" fill="none" stroke="#A764DD" opacity=".65"/><circle cx="85" cy="58" r="43" fill="url(#planet)"/><path d="M12 83Q79 108 156 36" fill="none" stroke="#59DCE8" stroke-width="5" stroke-linecap="round"/><circle cx="141" cy="18" r="9" fill="#FFC75A"/><path d="m23 25 4 7 7 3-7 3-4 7-3-7-7-3 7-3z" fill="#FFC75A"/><circle cx="43" cy="10" r="2" fill="#CDB6FF"/><circle cx="163" cy="76" r="2" fill="#CDB6FF"/></g>
+<text x="44" y="172" fill="#FFC75A" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">TARGET DURASI TIDUR</text>
+<text x="44" y="228" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="start">8 jam</text>
+<text x="44" y="266" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Jam tidur ideal · 22:30</text>
+<g aria-label="Ubah target">
+<rect x="237" y="254" width="112" height="44" rx="22" fill="#F2EAFF"/>
+<path transform="translate(248 268)" d="m2 13 1-4L11 1l4 4-8 8-5 1Zm7-10 4 4" fill="none" stroke="#6632BC" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="274" y="281" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700">Ubah target</text>
+</g>
+<rect x="24" y="331" width="342" height="134" rx="20" fill="#FFFFFF"/>
+<rect x="40" y="345" width="121" height="29" rx="14" fill="#FFF1CA"/>
+<text x="100.5" y="364" fill="#75500C" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Untuk malam ini</text>
+<text x="40" y="404" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Mulai tidur 30 menit lebih awal</text>
+<text x="40" y="427" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Jadwal tidurmu bergeser beberapa malam ini.</text>
+<text x="40" y="447" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Coba mulai bersiap pukul 22:00.</text>
+<rect x="24" y="490" width="342" height="50" rx="24" fill="#F2EAFF"/>
+<text x="195.0" y="521" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Lihat wawasan lingkungan</text>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-16" transform="translate(898 1224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">06   Rekomendasi &amp; Target - Edit Target · UC-04</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="26" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path transform="translate(21 52)" d="M15 5l-7 7 7 7" stroke="#6632BC" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="54" y="74" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Ubah target</text>
+<text x="24" y="107" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Sesuaikan durasi dan jam tidur ideal.</text>
+<text x="24" y="159" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">Durasi target</text>
+<rect x="24" y="169" width="342" height="48" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="199" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">6</text><path d="M296 182v23" stroke="#D8CCE7"/><text x="351" y="199" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">jam</text>
+<text x="24" y="234" fill="#75500C" font-family="Inter, Arial, sans-serif" font-size="11">6 jam di luar acuan 7–9 jam.</text>
+<text x="24" y="245" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">Jam tidur ideal</text>
+<rect x="24" y="255" width="342" height="48" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="285" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">22:30</text>
+<rect x="24" y="329" width="342" height="50" rx="24" fill="#6632BC"/>
+<text x="195.0" y="360" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Simpan target 6 jam</text>
+<rect x="24" y="391" width="342" height="50" rx="24" fill="#F2EAFF"/>
+<text x="195.0" y="422" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Kembali ubah target</text>
+</g>
+<g id="layar-12" transform="translate(1326 1224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">07   Rekomendasi &amp; Target - Wawasan Lingkungan · UC-07</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="26" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="55" y="74" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Wawasan tidur</text>
+
+<text x="24" y="110" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Ringkasan dari 7 sesi dengan catatan faktor.</text>
+<g transform="translate(0 -47)">
+
+<g transform="translate(0 53)">
+<rect x="24" y="135" width="342" height="126" rx="24" fill="url(#sky)"/>
+<g transform="translate(235 151) scale(0.59)"><ellipse cx="85" cy="58" rx="82" ry="32" transform="rotate(-22 85 58)" fill="none" stroke="#A764DD" opacity=".65"/><circle cx="85" cy="58" r="43" fill="url(#planet)"/><path d="M12 83Q79 108 156 36" fill="none" stroke="#59DCE8" stroke-width="5" stroke-linecap="round"/><circle cx="141" cy="18" r="9" fill="#FFC75A"/><path d="m23 25 4 7 7 3-7 3-4 7-3-7-7-3 7-3z" fill="#FFC75A"/><circle cx="43" cy="10" r="2" fill="#CDB6FF"/><circle cx="163" cy="76" r="2" fill="#CDB6FF"/></g>
+<text x="42" y="169" fill="#59DCE8" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start">FAKTOR YANG TERCATAT</text>
+<text x="42" y="210" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="start">7 sesi</text>
+<text x="42" y="235" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Sampel dari minggu ini</text>
+<g aria-label="Faktor yang memengaruhi tidur">
+<rect x="24" y="276" width="342" height="76" rx="18" fill="#FFFFFF" stroke="#E7DDF1"/>
+<rect x="33" y="285" width="72" height="58" rx="13" fill="#6632BC"/>
+<text x="69" y="311" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="middle">3</text>
+<text x="69" y="328" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">sesi</text>
+<text x="119" y="300" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="start">Kafein</text>
+<text x="119" y="319" fill="#443453" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Skor cenderung lebih rendah.</text>
+<text x="119" y="337" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Pada sesi dengan kafein.</text>
+<rect x="24" y="362" width="342" height="76" rx="18" fill="#FFFFFF" stroke="#E7DDF1"/>
+<rect x="33" y="371" width="72" height="58" rx="13" fill="#6632BC"/>
+<text x="69" y="397" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="middle">4</text>
+<text x="69" y="414" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">sesi</text>
+<text x="119" y="386" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="start">Waktu layar</text>
+<text x="119" y="405" fill="#443453" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Skor cenderung lebih rendah.</text>
+<text x="119" y="423" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Pada sesi dengan waktu layar lebih lama.</text>
+<rect x="24" y="448" width="342" height="76" rx="18" fill="#FFFFFF" stroke="#E7DDF1"/>
+<rect x="33" y="457" width="72" height="58" rx="13" fill="#6632BC"/>
+<text x="69" y="483" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="middle">24 °C</text>
+<text x="69" y="500" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">rata-rata</text>
+<text x="119" y="472" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="start">Suhu malam</text>
+<text x="119" y="491" fill="#443453" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Belum terlihat pola pada skor.</text>
+<text x="119" y="509" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Sumber: Open-Meteo</text>
+</g>
+<rect x="24" y="541" width="342" height="86" rx="18" fill="#E2F5FF"/>
+<text x="40" y="566" fill="#235579" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Cara membaca hasil</text>
+<text x="40" y="588" fill="#235579" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Hasil menunjukkan kecenderungan dalam data.</text>
+<text x="40" y="605" fill="#235579" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Pola ini tidak membuktikan sebab-akibat.</text>
+</g>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<rect x="20" y="2128" width="2150" height="960" rx="28" fill="#261749" stroke="#49356F"/>
+<text x="42" y="2166" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Riwayat dan kelola sesi</text>
+<text x="42" y="2192" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14">Dibuka dari grafik Skor Mingguan di Ringkasan</text>
+<g id="layar-9" transform="translate(42 2224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">08   Dashboard - Riwayat · UC-06</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="26" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="55" y="74" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Riwayat tidur</text>
+
+<text x="24" y="110" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">16–22 November 2026</text>
+<g transform="translate(0 -47)">
+
+<g transform="translate(0 64)">
+<rect x="24" y="122" width="342" height="50" rx="24" fill="#F2EAFF"/>
+<text x="195.0" y="153" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">‹    Minggu ini    ›</text>
+</g>
+<g aria-label="Grafik skor mingguan" transform="translate(0 -61)">
+<rect x="24" y="316" width="342" height="172" rx="22" fill="#FFFFFF"/>
+<text x="40" y="345" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Skor mingguan</text>
+<rect x="43" y="399" width="27" height="46" rx="8" fill="#CDB6FF"/>
+<text x="56" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sen</text>
+<rect x="88" y="389" width="27" height="56" rx="8" fill="#CDB6FF"/>
+<text x="101" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sel</text>
+<rect x="133" y="402" width="27" height="43" rx="8" fill="#CDB6FF"/>
+<text x="146" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Rab</text>
+<rect x="178" y="403" width="27" height="42" rx="8" fill="#CDB6FF"/>
+<text x="191" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Kam</text>
+<rect x="223" y="397" width="27" height="48" rx="8" fill="#CDB6FF"/>
+<text x="236" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Jum</text>
+<rect x="268" y="375" width="27" height="70" rx="8" fill="#CDB6FF"/>
+<text x="281" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Sab</text>
+<rect x="313" y="362" width="27" height="83" rx="8" fill="#6632BC"/>
+<text x="326" y="466" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">Min</text>
+</g>
+<g transform="translate(0 252)">
+<rect x="24" y="191" width="165" height="88" rx="18" fill="#FFFFFF"/>
+<text x="38" y="213" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Rata-rata durasi</text>
+<text x="38" y="242" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="start">6 j 42 m</text>
+<text x="38" y="264" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">7 sesi</text>
+<rect x="201" y="191" width="165" height="88" rx="18" fill="#FFFFFF"/>
+<text x="215" y="213" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Rata-rata skor</text>
+<text x="215" y="242" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="start">72/100</text>
+<text x="215" y="264" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Target tercapai 3 hari</text>
+</g>
+<g transform="translate(0 48)">
+<text x="24" y="510" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="start">Sesi terbaru</text>
+<g transform="translate(0 0)">
+<rect x="24" y="526" width="342" height="58" rx="17" fill="#FFFFFF"/>
+<text x="40" y="549" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Minggu, 22 Nov</text>
+<text x="40" y="572" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">22:30 – 06:00 · 7 j 30 m</text>
+<text x="322" y="562" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="end">84</text>
+<path transform="translate(333 545)" d="M9 5l7 7-7 7" stroke="#62536F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0 -12)">
+<rect x="24" y="606" width="342" height="58" rx="17" fill="#FFFFFF"/>
+<text x="40" y="629" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Sabtu, 21 Nov</text>
+<text x="40" y="652" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">23:00 – 06:00 · 7 j</text>
+<text x="322" y="642" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="end">78</text>
+<path transform="translate(333 625)" d="M9 5l7 7-7 7" stroke="#62536F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0 -24)">
+<rect x="24" y="686" width="342" height="58" rx="17" fill="#FFFFFF"/>
+<text x="40" y="709" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Jumat, 20 Nov</text>
+<text x="40" y="732" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">00:45 – 06:15 · 5 j 30 m</text>
+<text x="322" y="722" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="end">65</text>
+<path transform="translate(333 705)" d="M9 5l7 7-7 7" stroke="#62536F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-10" transform="translate(470 2224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">09   Dashboard - Detail Sesi · UC-02, 06</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">9:41</text>
+<text x="366" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="56" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Detail sesi</text>
+<text x="24" y="103" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Minggu, 22 November 2026</text>
+<rect x="24" y="128" width="342" height="114" rx="21" fill="url(#sky)"/>
+<text x="42" y="158" fill="#CDB6FF" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start">DURASI TIDUR</text>
+<text x="42" y="205" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="start">7 j 30 m</text>
+<rect x="240" y="156" width="107" height="57" rx="15" fill="#FFFFFF" stroke="#6632BC" stroke-width="1.5"/>
+<text x="293" y="178" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Skor tidur</text>
+<text x="293" y="199" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">84 / 100</text>
+<rect x="24" y="260" width="165" height="92" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="284" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text>
+<text x="38" y="313" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text>
+<text x="38" y="335" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text>
+<rect x="201" y="260" width="165" height="92" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="215" y="284" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text>
+<text x="215" y="313" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text>
+<text x="215" y="335" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Min, 22 Nov</text>
+<rect x="24" y="369" width="342" height="57" rx="17" fill="#F2EAFF"/>
+<text x="40" y="404" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Kualitas tidur</text>
+<g transform="translate(250 384)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><circle cx="9" cy="10" r=".7"/><circle cx="15" cy="10" r=".7"/><path d="M8 14q4 5 8 0"/></g>
+<text x="348" y="404" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">4 / 5 · Baik</text>
+<text x="24" y="457" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Faktor sebelum tidur</text>
+<rect x="24" y="471" width="342" height="167" rx="19" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="40" y="496" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Kafein</text>
+<text x="349" y="496" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">1 shot</text>
+<text x="40" y="525" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Waktu layar</text>
+<text x="349" y="525" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">45 menit</text>
+<text x="40" y="554" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Tingkat stres</text>
+<text x="349" y="554" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">Sedang</text>
+<path d="M40 569H350" stroke="#E7DDF1"/>
+<text x="40" y="592" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Catatan</text>
+<text x="40" y="615" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Terbangun sekali tengah malam.</text>
+<rect x="24" y="656" width="342" height="48" rx="24" fill="#6632BC"/><text x="195" y="686" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Ubah sesi</text>
+<rect x="24" y="715" width="342" height="48" rx="24" fill="#FFE5F0"/><text x="195" y="745" fill="#9F2358" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Hapus sesi</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<g id="layar-17" transform="translate(898 2224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">10   Catat Tidur - Ubah Sesi · UC-02</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">9:41</text>
+<text x="366" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="56" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Ubah sesi</text>
+<text x="24" y="103" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Sesi 21–22 November 2026</text>
+<g transform="translate(0 -157)">
+<text x="24" y="291" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="start">Waktu sesi</text>
+<text x="366" y="291" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">Durasi 7 j 30 m</text>
+<rect x="24" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/><text x="38" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text><text x="38" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text><text x="38" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text><path d="M11 13a7 7 0 0 1-7-9 7 7 0 1 0 7 9Z" transform="translate(154 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="201" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/><text x="215" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text><text x="215" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text><text x="215" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Min, 22 Nov</text><path d="M7 2v2m0 8v2M2 7h2m6 0h2M7 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" transform="translate(331 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="444" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Ketuk waktu untuk mengubah tanggal dan jam.</text>
+<text x="24" y="480" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">Kualitas tidur</text>
+<text x="366" y="480" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<rect x="24" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(41 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><path d="M7 9l4 1m6 0 4-1"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 20q5-6 10 0"/></g>
+<text x="55" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">1</text>
+<rect x="94" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(111 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 19q5-3 10 0"/></g>
+<text x="125" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">2</text>
+<rect x="164" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(181 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M10 19h8"/></g>
+<text x="195" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">3</text>
+<rect x="234" y="491" width="62" height="61" rx="15" fill="#6632BC"/>
+<g transform="translate(251 498)" stroke="#FFFFFF" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#FFFFFF"/><circle cx="18" cy="12" r=".85" fill="#FFFFFF"/><path d="M9 17q5 6 10 0"/></g>
+<text x="265" y="544" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">4</text>
+<rect x="304" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(321 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M8 16h12q-6 10-12 0Z"/></g>
+<text x="335" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">5</text>
+<text x="24" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">1 · Sangat buruk</text>
+<text x="366" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end">5 · Sangat baik</text>
+</g>
+<g transform="translate(0 0)">
+<text x="24" y="439" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Faktor sebelum tidur</text>
+<text x="366" y="439" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<text x="24" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Kafein</text>
+<rect x="24" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="36" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">1</text>
+<path d="M118 481v22" stroke="#D8CCE7"/>
+<text x="175" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">shots</text>
+<text x="201" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Waktu layar</text>
+<rect x="201" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="213" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">45</text>
+<path d="M295 481v22" stroke="#D8CCE7"/>
+<text x="352" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">menit</text>
+<text x="24" y="536" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Tingkat stres</text>
+<rect x="24" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="79" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Rendah</text>
+<rect x="140" y="546" width="110" height="44" rx="13" fill="#6632BC"/>
+<text x="195" y="573" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sedang</text>
+<rect x="256" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="311" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Tinggi</text>
+<text x="24" y="612" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Catatan</text>
+<rect x="24" y="622" width="342" height="42" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="648" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Terbangun sekali tengah malam.</text>
+<rect x="24" y="672" width="342" height="48" rx="24" fill="#6632BC"/>
+<text x="195" y="702" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Simpan perubahan</text>
+</g>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<g id="layar-21" transform="translate(1326 2224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">11   Catat Tidur - Validasi Ubah Sesi · UC-02</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">9:41</text>
+<text x="366" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="56" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Ubah sesi</text>
+<text x="24" y="103" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Sesi 21–22 November 2026.</text>
+<g transform="translate(0 -157)">
+<text x="24" y="291" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="start">Waktu sesi</text>
+<rect x="24" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/><text x="38" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text><text x="38" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text><text x="38" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text><path d="M11 13a7 7 0 0 1-7-9 7 7 0 1 0 7 9Z" transform="translate(154 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="201" y="312" width="165" height="106" rx="18" fill="#FFE5F0" stroke="#9F2358"/><text x="215" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text><text x="215" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text><text x="215" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text><path d="M7 2v2m0 8v2M2 7h2m6 0h2M7 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" transform="translate(331 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="444" fill="#9F2358" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Waktu bangun harus setelah waktu mulai tidur.</text>
+<text x="24" y="480" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">Kualitas tidur</text>
+<text x="366" y="480" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<rect x="24" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(41 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><path d="M7 9l4 1m6 0 4-1"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 20q5-6 10 0"/></g>
+<text x="55" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">1</text>
+<rect x="94" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(111 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 19q5-3 10 0"/></g>
+<text x="125" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">2</text>
+<rect x="164" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(181 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M10 19h8"/></g>
+<text x="195" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">3</text>
+<rect x="234" y="491" width="62" height="61" rx="15" fill="#6632BC"/>
+<g transform="translate(251 498)" stroke="#FFFFFF" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#FFFFFF"/><circle cx="18" cy="12" r=".85" fill="#FFFFFF"/><path d="M9 17q5 6 10 0"/></g>
+<text x="265" y="544" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">4</text>
+<rect x="304" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(321 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M8 16h12q-6 10-12 0Z"/></g>
+<text x="335" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">5</text>
+<text x="24" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">1 · Sangat buruk</text>
+<text x="366" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end">5 · Sangat baik</text>
+</g>
+<g transform="translate(0 0)">
+<text x="24" y="439" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Faktor sebelum tidur</text>
+<text x="366" y="439" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<text x="24" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Kafein</text>
+<rect x="24" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="36" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">1</text>
+<path d="M118 481v22" stroke="#D8CCE7"/>
+<text x="175" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">shots</text>
+<text x="201" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Waktu layar</text>
+<rect x="201" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="213" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">45</text>
+<path d="M295 481v22" stroke="#D8CCE7"/>
+<text x="352" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">menit</text>
+<text x="24" y="536" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Tingkat stres</text>
+<rect x="24" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="79" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Rendah</text>
+<rect x="140" y="546" width="110" height="44" rx="13" fill="#6632BC"/>
+<text x="195" y="573" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sedang</text>
+<rect x="256" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="311" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Tinggi</text>
+<text x="24" y="612" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Catatan</text>
+<rect x="24" y="622" width="342" height="42" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="648" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Terbangun sekali tengah malam.</text>
+<rect x="24" y="672" width="342" height="48" rx="24" fill="#F2EAFF"/>
+<text x="195" y="702" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Simpan perubahan</text>
+</g>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<g id="layar-18" transform="translate(1754 2224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">12   Catat Tidur - Konfirmasi Hapus · UC-02</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">9:41</text>
+<text x="366" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="56" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Detail sesi</text>
+<text x="24" y="103" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Minggu, 22 November 2026</text>
+<rect x="24" y="128" width="342" height="114" rx="21" fill="url(#sky)"/>
+<text x="42" y="158" fill="#CDB6FF" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start">DURASI TIDUR</text>
+<text x="42" y="205" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="start">7 j 30 m</text>
+<rect x="240" y="156" width="107" height="57" rx="15" fill="#FFFFFF" stroke="#6632BC" stroke-width="1.5"/>
+<text x="293" y="178" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Skor tidur</text>
+<text x="293" y="199" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">84 / 100</text>
+<rect x="24" y="260" width="165" height="92" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="284" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text>
+<text x="38" y="313" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text>
+<text x="38" y="335" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text>
+<rect x="201" y="260" width="165" height="92" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="215" y="284" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text>
+<text x="215" y="313" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text>
+<text x="215" y="335" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Min, 22 Nov</text>
+<rect x="24" y="369" width="342" height="57" rx="17" fill="#F2EAFF"/>
+<text x="40" y="404" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Kualitas tidur</text>
+<g transform="translate(250 384)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><circle cx="9" cy="10" r=".7"/><circle cx="15" cy="10" r=".7"/><path d="M8 14q4 5 8 0"/></g>
+<text x="348" y="404" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">4 / 5 · Baik</text>
+<text x="24" y="457" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Faktor sebelum tidur</text>
+<rect x="24" y="471" width="342" height="167" rx="19" fill="#FFFFFF" stroke="#E7DDF1"/>
+<text x="40" y="496" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Kafein</text>
+<text x="349" y="496" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">1 shot</text>
+<text x="40" y="525" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Waktu layar</text>
+<text x="349" y="525" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">45 menit</text>
+<text x="40" y="554" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Tingkat stres</text>
+<text x="349" y="554" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">Sedang</text>
+<path d="M40 569H350" stroke="#E7DDF1"/>
+<text x="40" y="592" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Catatan</text>
+<text x="40" y="615" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Terbangun sekali tengah malam.</text>
+<rect x="24" y="656" width="342" height="48" rx="24" fill="#6632BC"/><text x="195" y="686" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Ubah sesi</text>
+<rect x="24" y="715" width="342" height="48" rx="24" fill="#FFE5F0"/><text x="195" y="745" fill="#9F2358" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Hapus sesi</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+<rect width="390" height="844" rx="34" fill="#1C103D" fill-opacity=".58"/>
+<rect x="12" y="513" width="366" height="319" rx="28" fill="#FFFFFF"/>
+<rect x="174" y="527" width="42" height="4" rx="2" fill="#D8CCE7"/>
+<text x="30" y="571" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start">Hapus sesi tidur?</text>
+<text x="30" y="598" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Ringkasan tidur akan diperbarui.</text>
+<rect x="30" y="613" width="330" height="68" rx="15" fill="#F2EAFF"/>
+<text x="44" y="639" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="start">21–22 November 2026</text>
+<text x="44" y="662" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">22:30 – 06:00 · 7 j 30 m</text>
+<rect x="24" y="700" width="342" height="48" rx="24" fill="#9F2358"/><text x="195" y="730" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Hapus sesi</text>
+<rect x="24" y="759" width="342" height="48" rx="24" fill="#F2EAFF"/><text x="195" y="789" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Batal</text>
+</g>
+<rect x="20" y="3128" width="2150" height="960" rx="28" fill="#261749" stroke="#49356F"/>
+<text x="42" y="3166" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Pencatatan tidur</text>
+<text x="42" y="3192" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14">Dari layar siap, mulai pelacakan atau buka Catat Manual</text>
+<g id="layar-4" transform="translate(42 3224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">13   Catat Tidur - Siap Melacak</text>
+<g clip-path="url(#tracker-screen)" font-family="Inter, Arial, sans-serif">
+    <rect width="390" height="844" fill="url(#tracker-calm)"/>
+    <g fill="#CDB6FF">
+      <circle cx="38" cy="121" r="1.5"/><circle cx="97" cy="108" r="1"/><circle cx="147" cy="142" r="1.5"/>
+      <circle cx="223" cy="108" r="1"/><circle cx="280" cy="137" r="1.5"/><circle cx="343" cy="114" r="2"/>
+      <circle cx="43" cy="228" r="1.25"/><circle cx="75" cy="272" r="1.5"/><circle cx="331" cy="250" r="1"/>
+      <circle cx="308" cy="188" r="2"/><circle cx="359" cy="305" r="1.5"/><circle cx="34" cy="311" r="1"/>
+    </g>
+    <path d="M0 351Q61 336 115 361T237 367T390 349V551H0Z" fill="#5C4D69" opacity=".74"/>
+    <path d="M0 399Q57 367 122 397T256 410T390 389V568H0Z" fill="#665774" opacity=".7"/>
+    <path d="M0 446Q83 417 146 439T294 446T390 423V594H0Z" fill="#766682" opacity=".48"/>
+    <g fill="#FFFFFF">
+      <text x="24" y="35" font-size="13" font-weight="700">9:41</text>
+      <path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+      <rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#FFFFFF"/><rect x="363" y="28" width="8" height="4" rx="1"/>
+      <text x="195" y="80" text-anchor="middle" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800">Catat tidur</text>
+    </g>
+    <g transform="translate(60 134)">
+      <ellipse cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25"/>
+      <path d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)"/>
+      <g fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)"/><circle cx="84" cy="166" r="7"/><circle cx="155" cy="215" r="8"/></g>
+      <path d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC"/>
+      <path d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF"/>
+      <circle cx="174" cy="180" r="4" fill="#59DCE8"/><circle cx="147" cy="188" r="3" fill="#6632BC"/>
+      <path d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF"/>
+      <path d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183"/>
+      <ellipse cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF"/>
+      <path d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA"/><ellipse cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA"/>
+      <path d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A"/>
+      <path d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8"/>
+      <circle cx="242" cy="119" r="3" fill="#FFC75A"/>
+    </g>
+    <text x="195" y="440" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="56" font-weight="800" text-anchor="middle">22:14</text>
+<text x="195" y="470" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Sabtu, 21 November</text>
+<text x="195" y="511" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Siap mulai sesi tidur?</text>
+<rect x="24" y="548" width="342" height="54" rx="27" fill="#CDB6FF"/>
+<text x="195" y="582" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Mulai tidur</text>
+<rect x="24" y="617" width="342" height="52" rx="26" fill="#30185A" stroke="#CDB6FF"/>
+<text x="195" y="649" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Catat manual</text>
+<path d="M0 716Q105 685 160 714T230 714Q285 685 390 716V844H0Z" fill="#352746"/>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<rect x="30" y="764" width="98" height="50" rx="16" fill="#F2EAFF"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#6632BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#F2EAFF" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+</g>
+<g id="layar-7" transform="translate(470 3224)">
+<text x="0" y="-15" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">14   Catat Tidur - Pelacak Aktif</text>
+<g clip-path="url(#tracker-screen)" font-family="Inter, Arial, sans-serif">
+    <rect width="390" height="844" fill="url(#tracker-calm)"/>
+    <g fill="#CDB6FF">
+      <circle cx="38" cy="121" r="1.5"/><circle cx="97" cy="108" r="1"/><circle cx="147" cy="142" r="1.5"/>
+      <circle cx="223" cy="108" r="1"/><circle cx="280" cy="137" r="1.5"/><circle cx="343" cy="114" r="2"/>
+      <circle cx="43" cy="228" r="1.25"/><circle cx="75" cy="272" r="1.5"/><circle cx="331" cy="250" r="1"/>
+      <circle cx="308" cy="188" r="2"/><circle cx="359" cy="305" r="1.5"/><circle cx="34" cy="311" r="1"/>
+    </g>
+    <path d="M0 351Q61 336 115 361T237 367T390 349V551H0Z" fill="#5C4D69" opacity=".74"/>
+    <path d="M0 399Q57 367 122 397T256 410T390 389V568H0Z" fill="#665774" opacity=".7"/>
+    <path d="M0 446Q83 417 146 439T294 446T390 423V594H0Z" fill="#766682" opacity=".48"/>
+    <g fill="#FFFFFF">
+      <text x="24" y="35" font-size="13" font-weight="700">9:41</text>
+      <path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+      <rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#FFFFFF"/><rect x="363" y="28" width="8" height="4" rx="1"/>
+      <text x="195" y="80" text-anchor="middle" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800">Pelacak tidur</text>
+    </g>
+    <path d="m34 65-8 8 8 8m-8-8h17" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(60 134)">
+      <ellipse cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25"/>
+      <path d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)"/>
+      <g fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)"/><circle cx="84" cy="166" r="7"/><circle cx="155" cy="215" r="8"/></g>
+      <path d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC"/>
+      <path d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF"/>
+      <circle cx="174" cy="180" r="4" fill="#59DCE8"/><circle cx="147" cy="188" r="3" fill="#6632BC"/>
+      <path d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF"/>
+      <path d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183"/>
+      <ellipse cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF"/>
+      <path d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA"/><ellipse cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA"/>
+      <path d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A"/>
+      <path d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8"/>
+      <circle cx="242" cy="119" r="3" fill="#FFC75A"/>
+    </g>
+    <rect x="125" y="392" width="140" height="30" rx="15" fill="#30185A"/>
+    <circle cx="143" cy="407" r="4" fill="#59DCE8"/>
+    <text x="155" y="411" fill="#FFFFFF" font-size="11" font-weight="700">SEDANG MELACAK</text>
+    <text x="195" y="489" text-anchor="middle" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-2">22:14</text>
+    <text x="195" y="519" text-anchor="middle" fill="#F2EAFF" font-size="13">Sabtu, 21 November</text>
+    <rect x="24" y="556" width="342" height="109" rx="24" fill="#FFFFFF"/>
+    <path d="M138 579v63m114-63v63" stroke="#D8CCE7"/>
+    <g text-anchor="middle" fill="#25183C">
+      <text x="81" y="598" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800">22:00</text>
+      <text x="195" y="598" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800">14 m</text>
+      <text x="309" y="598" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800">8 j</text>
+      <text x="81" y="626" font-size="11" fill="#62536F">Mulai sesi</text>
+      <text x="195" y="626" font-size="11" fill="#62536F">Waktu berjalan</text>
+      <text x="309" y="626" font-size="11" fill="#62536F">Target tidur</text>
+    </g>
+    <path d="M0 719Q104 692 160 716Q195 739 230 716Q286 692 390 719V844H0Z" fill="#352746"/>
+    <rect x="24" y="745" width="342" height="51" rx="25.5" fill="#CDB6FF"/>
+    <rect x="112" y="764" width="12" height="12" rx="2" fill="#25183C"/>
+    <text x="210" y="777" text-anchor="middle" fill="#25183C" font-size="15" font-weight="700">Akhiri sesi tidur</text>
+    <rect x="132" y="823" width="126" height="4" rx="2" fill="#F2EAFF"/>
+  </g>
+</g>
+<g id="layar-8" transform="translate(898 3224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">15   Catat Tidur - Tinjau Sesi</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">9:41</text>
+<text x="366" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="56" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Tinjau sesi tidur</text>
+<text x="24" y="103" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Koreksi waktunya bila perlu sebelum menyimpan.</text>
+<rect x="24" y="119" width="342" height="34" rx="11" fill="#F2EAFF"/><text x="38" y="141" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Waktu dari pelacak bisa dikoreksi.</text>
+<g transform="translate(0 -121)">
+<text x="24" y="291" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="start">Waktu sesi</text>
+<text x="366" y="291" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">Durasi 7 j 30 m</text>
+<rect x="24" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/><text x="38" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text><text x="38" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text><text x="38" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text><path d="M11 13a7 7 0 0 1-7-9 7 7 0 1 0 7 9Z" transform="translate(154 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="201" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/><text x="215" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text><text x="215" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text><text x="215" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Min, 22 Nov</text><path d="M7 2v2m0 8v2M2 7h2m6 0h2M7 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" transform="translate(331 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="444" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Ketuk waktu untuk mengubah tanggal dan jam.</text>
+<text x="24" y="480" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">Kualitas tidur</text>
+<text x="366" y="480" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<rect x="24" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(41 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><path d="M7 9l4 1m6 0 4-1"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 20q5-6 10 0"/></g>
+<text x="55" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">1</text>
+<rect x="94" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(111 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 19q5-3 10 0"/></g>
+<text x="125" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">2</text>
+<rect x="164" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(181 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M10 19h8"/></g>
+<text x="195" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">3</text>
+<rect x="234" y="491" width="62" height="61" rx="15" fill="#6632BC"/>
+<g transform="translate(251 498)" stroke="#FFFFFF" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#FFFFFF"/><circle cx="18" cy="12" r=".85" fill="#FFFFFF"/><path d="M9 17q5 6 10 0"/></g>
+<text x="265" y="544" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">4</text>
+<rect x="304" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(321 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M8 16h12q-6 10-12 0Z"/></g>
+<text x="335" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">5</text>
+<text x="24" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">1 · Sangat buruk</text>
+<text x="366" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end">5 · Sangat baik</text>
+</g>
+<g transform="translate(0 36)">
+<text x="24" y="439" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Faktor sebelum tidur</text>
+<text x="366" y="439" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<text x="24" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Kafein</text>
+<rect x="24" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="36" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">0</text>
+<path d="M118 481v22" stroke="#D8CCE7"/>
+<text x="175" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">shots</text>
+<text x="201" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Waktu layar</text>
+<rect x="201" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="213" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">0</text>
+<path d="M295 481v22" stroke="#D8CCE7"/>
+<text x="352" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">menit</text>
+<text x="24" y="536" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Tingkat stres</text>
+<rect x="24" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="79" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Rendah</text>
+<rect x="140" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="195" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sedang</text>
+<rect x="256" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="311" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Tinggi</text>
+<text x="24" y="612" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Catatan</text>
+<rect x="24" y="622" width="342" height="42" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="648" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Contoh: terbangun tengah malam</text>
+<rect x="24" y="672" width="342" height="48" rx="24" fill="#6632BC"/>
+<text x="195" y="702" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Simpan sesi</text>
+</g>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<g id="layar-6" transform="translate(1326 3224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">16   Catat Tidur - Manual · UC-02</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">9:41</text>
+<text x="366" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<text x="24" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Catat manual</text>
+<text x="24" y="103" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Isi tanggal dan jam tidur serta bangun.</text>
+<g transform="translate(0 -157)">
+<text x="24" y="291" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="start">Waktu sesi</text>
+<text x="366" y="291" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">Durasi 7 j 30 m</text>
+<rect x="24" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/><text x="38" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Mulai tidur</text><text x="38" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">22:30</text><text x="38" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Sab, 21 Nov</text><path d="M11 13a7 7 0 0 1-7-9 7 7 0 1 0 7 9Z" transform="translate(154 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="201" y="312" width="165" height="106" rx="18" fill="#FFFFFF" stroke="#D8CCE7"/><text x="215" y="337" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Bangun</text><text x="215" y="374" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="start">06:00</text><text x="215" y="399" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Min, 22 Nov</text><path d="M7 2v2m0 8v2M2 7h2m6 0h2M7 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" transform="translate(331 326)" fill="none" stroke="#6632BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="444" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Ketuk waktu untuk mengubah tanggal dan jam.</text>
+<text x="24" y="480" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">Kualitas tidur</text>
+<text x="366" y="480" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<rect x="24" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(41 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><path d="M7 9l4 1m6 0 4-1"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 20q5-6 10 0"/></g>
+<text x="55" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">1</text>
+<rect x="94" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(111 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M9 19q5-3 10 0"/></g>
+<text x="125" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">2</text>
+<rect x="164" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(181 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M10 19h8"/></g>
+<text x="195" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">3</text>
+<rect x="234" y="491" width="62" height="61" rx="15" fill="#6632BC"/>
+<g transform="translate(251 498)" stroke="#FFFFFF" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#FFFFFF"/><circle cx="18" cy="12" r=".85" fill="#FFFFFF"/><path d="M9 17q5 6 10 0"/></g>
+<text x="265" y="544" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">4</text>
+<rect x="304" y="491" width="62" height="61" rx="15" fill="#F2EAFF"/>
+<g transform="translate(321 498)" stroke="#6632BC" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="12" r=".85" fill="#6632BC"/><circle cx="18" cy="12" r=".85" fill="#6632BC"/><path d="M8 16h12q-6 10-12 0Z"/></g>
+<text x="335" y="544" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">5</text>
+<text x="24" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">1 · Sangat buruk</text>
+<text x="366" y="573" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end">5 · Sangat baik</text>
+</g>
+<g transform="translate(0 0)">
+<text x="24" y="439" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">Faktor sebelum tidur</text>
+<text x="366" y="439" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">Opsional</text>
+<text x="24" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Kafein</text>
+<rect x="24" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="36" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">0</text>
+<path d="M118 481v22" stroke="#D8CCE7"/>
+<text x="175" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">shots</text>
+<text x="201" y="461" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Waktu layar</text>
+<rect x="201" y="470" width="165" height="44" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="213" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">0</text>
+<path d="M295 481v22" stroke="#D8CCE7"/>
+<text x="352" y="497" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">menit</text>
+<text x="24" y="536" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Tingkat stres</text>
+<rect x="24" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="79" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Rendah</text>
+<rect x="140" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="195" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sedang</text>
+<rect x="256" y="546" width="110" height="44" rx="13" fill="#F2EAFF"/>
+<text x="311" y="573" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Tinggi</text>
+<text x="24" y="612" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Catatan</text>
+<rect x="24" y="622" width="342" height="42" rx="12" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="38" y="648" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Contoh: terbangun tengah malam</text>
+<rect x="24" y="672" width="342" height="48" rx="24" fill="#6632BC"/>
+<text x="195" y="702" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Simpan sesi</text>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<rect x="30" y="764" width="98" height="50" rx="16" fill="#F2EAFF"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#6632BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#F2EAFF" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<rect x="20" y="4128" width="2150" height="960" rx="28" fill="#261749" stroke="#49356F"/>
+<text x="42" y="4166" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Profil dan pengingat</text>
+<text x="42" y="4192" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14">Profil, pengingat, dan jadwal tidur</text>
+<g id="layar-13" transform="translate(42 4224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">17   Profil &amp; Pengingat · UC-01, UC-05</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="url(#tracker-calm)"/>
+<path d="M0 613Q93 574 178 615T390 601V684Q306 700 212 664T0 678Z" fill="#766682" opacity=".36"/>
+<path d="M281 83q53-12 85 28m-100-17q54-15 84 26" fill="none" stroke="#CDB6FF" opacity=".26" stroke-width="1.4"/>
+<path d="m328 94 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill="#FFC75A"/>
+<text x="24" y="34" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700">9:41</text>
+<path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#FFFFFF"/>
+<rect x="363" y="28" width="8" height="4" rx="1" fill="#FFFFFF"/>
+<text x="24" y="78" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Profil</text>
+<rect x="26" y="117" width="338" height="315" rx="29" fill="#E9DDF8"/>
+<rect x="24" y="109" width="342" height="315" rx="28" fill="#FFFFFF" stroke="#E7DDF1"/>
+<path d="M52 109H338Q366 109 366 137V167Q319 147 266 166T153 166T24 173V137Q24 109 52 109Z" fill="#F2EAFF"/>
+<circle cx="77" cy="150" r="2.5" fill="#C3A9FF"/><circle cx="308" cy="152" r="2.5" fill="#C3A9FF"/>
+<path d="m98 132 2 5 5 2-5 2-2 5-2-5-5-2 5-2zM287 130l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#C3A9FF"/>
+<g transform="translate(114 20)" aria-label="Ilustrasi avatar Nara">
+<circle cx="81" cy="166" r="50" fill="#F2EAFF"/>
+<circle cx="81" cy="166" r="54" fill="none" stroke="#CDB6FF" stroke-width="2"/>
+<path d="M48 209Q53 185 81 185Q109 185 114 209Q81 225 48 209Z" fill="#6632BC"/>
+<path d="M60 151q-4-27 19-29 26-2 27 26l-2 29q-21 14-43-1z" fill="#30185A"/>
+<path d="M75 176h12v14q-6 7-12 0z" fill="#F2A58B"/>
+<path d="M66 147q11-1 20-13 4 9 13 13v12q-1 19-17 23-16-4-16-23z" fill="#FFD2B8"/>
+<path d="M71 155q4-3 7 0m9 0q4-3 7 0m-16 12q4 4 9 0" fill="none" stroke="#30185A" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="72" cy="162" r="2.6" fill="#FFA183"/>
+<circle cx="93" cy="162" r="2.6" fill="#FFA183"/>
+<path d="M111 118a54 54 0 0 1 22 54" fill="none" stroke="#F52D91" stroke-width="3" stroke-linecap="round"/>
+<path d="M57 214a54 54 0 0 1-29-39" fill="none" stroke="#59DCE8" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="195" y="273" text-anchor="middle" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Nara Putri</text>
+<text x="195" y="298" text-anchor="middle" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="14">nara@contoh.id</text>
+<rect x="153" y="312" width="84" height="28" rx="14" fill="#F2EAFF"/>
+<text x="195" y="331" text-anchor="middle" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700">21 tahun</text>
+<rect x="48" y="355" width="294" height="48" rx="24" fill="#6632BC"/>
+<text x="195" y="385" text-anchor="middle" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700">Ubah profil</text>
+<rect x="24" y="455" width="342" height="108" rx="24" fill="#F2EAFF" stroke="#E7DDF1"/>
+<circle cx="65" cy="507" r="23" fill="#FFFFFF"/>
+<path transform="translate(53 495)" d="M5 17h14l-2-3v-4a5 5 0 0 0-10 0v4z M10 21h4" fill="none" stroke="#6632BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="100" y="503" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="800">Pengingat tidur</text>
+<text x="100" y="527" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13">Aktif · Setiap hari, 22:00</text>
+<rect x="298" y="493" width="49" height="28" rx="14" fill="#6632BC"/>
+<circle cx="332" cy="507" r="10" fill="#FFFFFF"/>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<rect x="262" y="764" width="98" height="50" rx="16" fill="#F2EAFF"/>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#6632BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#F2EAFF" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-14" transform="translate(470 4224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">18   Profil &amp; Pengingat - Ubah Profil · UC-01, UC-05</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="24" y="34" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">9:41</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="75" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Ubah profil</text>
+<text x="24" y="132" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">Nama</text>
+<rect x="24" y="140" width="342" height="48" rx="13" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="37" y="170" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Nara Putri</text>
+<text x="24" y="214" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">Email</text>
+<rect x="24" y="222" width="342" height="48" rx="13" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="37" y="252" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">nara@contoh.id</text>
+<text x="24" y="296" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">Usia</text>
+<rect x="24" y="304" width="342" height="48" rx="13" fill="#FFFFFF" stroke="#D8CCE7"/>
+<text x="37" y="334" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">21</text>
+<path d="M312 316v24" stroke="#D8CCE7"/>
+<text x="354" y="334" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">tahun</text>
+<text x="24" y="395" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="700">Pengingat tidur</text>
+<rect x="24" y="411" width="165" height="46" rx="14" fill="#6632BC"/>
+<text x="106.5" y="440" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">30 mnt sebelum tidur</text>
+<rect x="201" y="411" width="165" height="46" rx="14" fill="#F2EAFF" stroke="#D8CCE7"/>
+<text x="283.5" y="440" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Pilih jam sendiri</text>
+<text x="24" y="489" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700">Jam pengingat</text>
+<rect x="24" y="497" width="342" height="48" rx="13" fill="#F2EAFF" stroke="#D8CCE7"/>
+<text x="37" y="527" fill="#25183C" font-family="Inter, Arial, sans-serif" font-size="15">22:00</text>
+<text x="350" y="527" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="end">Otomatis</text>
+<text x="24" y="570" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12">Otomatis mengikuti jam tidur ideal, 30 menit lebih awal.</text>
+<rect x="24" y="605" width="342" height="50" rx="25" fill="#6632BC"/>
+<text x="195" y="636" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Simpan perubahan</text>
+<text x="195" y="699" fill="#9F2358" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Keluar dari akun</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+</g>
+<rect x="20" y="5128" width="2150" height="960" rx="28" fill="#261749" stroke="#49356F"/>
+<text x="42" y="5166" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800">Status Dashboard</text>
+<text x="42" y="5192" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14">Tampilan saat belum ada sesi, sedang memuat, atau gagal memuat</text>
+<g id="layar-19" transform="translate(42 5224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">19   Dashboard - Data Kosong · UC-03, 06</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="url(#tracker-sky)"/>
+<g clip-path="url(#tracker-screen)">
+<path d="M0 333Q90 288 172 327T390 311V567H0Z" fill="#57388D" opacity=".4"/>
+<path d="M0 512Q91 468 192 516T390 492V692H0Z" fill="#9B58A1" opacity=".35"/>
+<path d="M0 730Q104 704 160 725Q195 742 230 725Q286 704 390 730V844H0Z" fill="#1C103D"/>
+<g fill="#CDB6FF"><circle cx="15" cy="173" r="1.5"/><circle cx="307" cy="64" r="1"/><circle cx="344" cy="74" r="2"/><circle cx="371" cy="177" r="1.5"/><circle cx="210" cy="162" r="1"/></g>
+</g>
+<text x="26" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<text x="24" y="74" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Dashboard</text>
+<g data-role="dashboard-segments">
+<rect x="24" y="98" width="342" height="47" rx="22" fill="#F2EAFF"/>
+<rect x="28" y="102" width="143" height="39" rx="19" fill="#6632BC"/>
+<text x="99.5" y="127" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ringkasan</text>
+<text x="268.0" y="127" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Target &amp; Rekomendasi</text>
+</g>
+<g transform="translate(0 43)">
+<rect x="24" y="147" width="342" height="242" rx="26" fill="url(#sky)"/>
+<g transform="translate(111 175) scale(1.0)"><ellipse cx="85" cy="58" rx="82" ry="32" transform="rotate(-22 85 58)" fill="none" stroke="#A764DD" opacity=".65"/><circle cx="85" cy="58" r="43" fill="url(#planet)"/><path d="M12 83Q79 108 156 36" fill="none" stroke="#59DCE8" stroke-width="5" stroke-linecap="round"/><circle cx="141" cy="18" r="9" fill="#FFC75A"/><path d="m23 25 4 7 7 3-7 3-4 7-3-7-7-3 7-3z" fill="#FFC75A"/><circle cx="43" cy="10" r="2" fill="#CDB6FF"/><circle cx="163" cy="76" r="2" fill="#CDB6FF"/></g>
+<text x="195" y="333" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle">Belum ada sesi tidur</text>
+<text x="195" y="358" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">Catat sesi pertamamu untuk melihat skor.</text>
+<rect x="24" y="412" width="342" height="50" rx="24" fill="#6632BC"/>
+<text x="195.0" y="443" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">+ Catat tidur</text>
+<rect x="24" y="491" width="342" height="91" rx="18" fill="#E2F5FF"/>
+<text x="40" y="516" fill="#235579" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Kapan pola muncul?</text>
+<text x="40" y="538" fill="#235579" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Skor tersedia setelah sesi pertama.</text>
+<text x="40" y="555" fill="#235579" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">TidurKu perlu minimal 3 sesi untuk melihat pola.</text>
+<rect x="24" y="594" width="342" height="78" rx="18" fill="#FFFFFF"/>
+<text x="40" y="621" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Riwayat · 16–22 Nov</text>
+<text x="40" y="649" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Belum ada sesi pada minggu yang dipilih.</text>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-20" transform="translate(470 5224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">20   Dashboard - Memuat</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="url(#tracker-sky)"/>
+<g clip-path="url(#tracker-screen)">
+<path d="M0 333Q90 288 172 327T390 311V567H0Z" fill="#57388D" opacity=".4"/>
+<path d="M0 512Q91 468 192 516T390 492V692H0Z" fill="#9B58A1" opacity=".35"/>
+<path d="M0 730Q104 704 160 725Q195 742 230 725Q286 704 390 730V844H0Z" fill="#1C103D"/>
+<g fill="#CDB6FF"><circle cx="15" cy="173" r="1.5"/><circle cx="307" cy="64" r="1"/><circle cx="344" cy="74" r="2"/><circle cx="371" cy="177" r="1.5"/><circle cx="210" cy="162" r="1"/></g>
+</g>
+<text x="26" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<text x="24" y="74" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Dashboard</text>
+<g data-role="dashboard-segments">
+<rect x="24" y="98" width="342" height="47" rx="22" fill="#F2EAFF"/>
+<rect x="28" y="102" width="143" height="39" rx="19" fill="#6632BC"/>
+<text x="99.5" y="127" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ringkasan</text>
+<text x="268.0" y="127" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Target &amp; Rekomendasi</text>
+</g>
+<text x="24" y="174" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Memuat ringkasan…</text>
+<rect x="24" y="194" width="342" height="172" rx="26" fill="#F2EAFF"/>
+<rect x="42" y="219" width="139" height="13" rx="6" fill="#D8CCE7"/>
+<rect x="42" y="249" width="82" height="46" rx="11" fill="#D8CCE7"/>
+<rect x="42" y="319" width="192" height="13" rx="6" fill="#D8CCE7"/>
+<rect x="24" y="380" width="342" height="172" rx="22" fill="#FFFFFF"/>
+<rect x="40" y="398" width="112" height="13" rx="6" fill="#E7DDF1"/>
+<rect x="43" y="485" width="27" height="44" rx="8" fill="#E7DDF1"/>
+<rect x="88" y="473" width="27" height="56" rx="8" fill="#E7DDF1"/>
+<rect x="133" y="487" width="27" height="42" rx="8" fill="#E7DDF1"/>
+<rect x="178" y="487" width="27" height="42" rx="8" fill="#E7DDF1"/>
+<rect x="223" y="481" width="27" height="48" rx="8" fill="#E7DDF1"/>
+<rect x="268" y="461" width="27" height="68" rx="8" fill="#E7DDF1"/>
+<rect x="313" y="449" width="27" height="80" rx="8" fill="#E7DDF1"/>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-22" transform="translate(898 5224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">21   Dashboard - Gangguan API</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="url(#tracker-sky)"/>
+<g clip-path="url(#tracker-screen)">
+<path d="M0 333Q90 288 172 327T390 311V567H0Z" fill="#57388D" opacity=".4"/>
+<path d="M0 512Q91 468 192 516T390 492V692H0Z" fill="#9B58A1" opacity=".35"/>
+<path d="M0 730Q104 704 160 725Q195 742 230 725Q286 704 390 730V844H0Z" fill="#1C103D"/>
+<g fill="#CDB6FF"><circle cx="15" cy="173" r="1.5"/><circle cx="307" cy="64" r="1"/><circle cx="344" cy="74" r="2"/><circle cx="371" cy="177" r="1.5"/><circle cx="210" cy="162" r="1"/></g>
+</g>
+<text x="26" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<text x="24" y="74" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start">Dashboard</text>
+<g data-role="toast">
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="8"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="#3E2B5A" stroke="#FFFFFF" stroke-opacity=".94" stroke-width="1.25"/>
+<text x="39" y="119" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="12">Ringkasan gagal dimuat.</text>
+<text x="350" y="119" fill="#E2D2FF" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">Coba lagi</text>
+</g>
+<g transform="translate(0 48)">
+<g data-role="dashboard-segments">
+<rect x="24" y="98" width="342" height="47" rx="22" fill="#F2EAFF"/>
+<rect x="28" y="102" width="143" height="39" rx="19" fill="#6632BC"/>
+<text x="99.5" y="127" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ringkasan</text>
+<text x="268.0" y="127" fill="#62536F" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Target &amp; Rekomendasi</text>
+</g>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<rect x="20" y="6128" width="2150" height="960" rx="28" fill="#261749" stroke="#49356F"/>
+<text x="42" y="6166" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Status Wawasan dan akun</text>
+<text x="42" y="6192" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Notifikasi singkat pada layar terkait</text>
+<g id="layar-23" transform="translate(42 6224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">22   Wawasan - Data Suhu Tidak Tersedia</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="26" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="55" y="74" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Wawasan tidur</text>
+<g data-role="toast">
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="8"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="#3E2B5A" stroke="#FFFFFF" stroke-opacity=".94" stroke-width="1.25"/>
+<text x="39" y="119" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="12">Data suhu belum tersedia.</text>
+</g>
+<g transform="translate(0 42)">
+
+<text x="24" y="110" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Ringkasan dari 7 sesi dengan catatan faktor.</text>
+<g transform="translate(0 -47)">
+
+<g transform="translate(0 53)">
+<rect x="24" y="135" width="342" height="126" rx="24" fill="url(#sky)"/>
+<g transform="translate(235 151) scale(0.59)"><ellipse cx="85" cy="58" rx="82" ry="32" transform="rotate(-22 85 58)" fill="none" stroke="#A764DD" opacity=".65"/><circle cx="85" cy="58" r="43" fill="url(#planet)"/><path d="M12 83Q79 108 156 36" fill="none" stroke="#59DCE8" stroke-width="5" stroke-linecap="round"/><circle cx="141" cy="18" r="9" fill="#FFC75A"/><path d="m23 25 4 7 7 3-7 3-4 7-3-7-7-3 7-3z" fill="#FFC75A"/><circle cx="43" cy="10" r="2" fill="#CDB6FF"/><circle cx="163" cy="76" r="2" fill="#CDB6FF"/></g>
+<text x="42" y="169" fill="#59DCE8" font-family="Nunito, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start">FAKTOR YANG TERCATAT</text>
+<text x="42" y="210" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="start">7 sesi</text>
+<text x="42" y="235" fill="#CDB6FF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Sampel dari minggu ini</text>
+<g aria-label="Faktor yang memengaruhi tidur">
+<rect x="24" y="276" width="342" height="76" rx="18" fill="#FFFFFF" stroke="#E7DDF1"/>
+<rect x="33" y="285" width="72" height="58" rx="13" fill="#6632BC"/>
+<text x="69" y="311" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="middle">3</text>
+<text x="69" y="328" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">sesi</text>
+<text x="119" y="300" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="start">Kafein</text>
+<text x="119" y="319" fill="#443453" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Skor cenderung lebih rendah.</text>
+<text x="119" y="337" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Pada sesi dengan kafein.</text>
+<rect x="24" y="362" width="342" height="76" rx="18" fill="#FFFFFF" stroke="#E7DDF1"/>
+<rect x="33" y="371" width="72" height="58" rx="13" fill="#6632BC"/>
+<text x="69" y="397" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="middle">4</text>
+<text x="69" y="414" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">sesi</text>
+<text x="119" y="386" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="start">Waktu layar</text>
+<text x="119" y="405" fill="#443453" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Skor cenderung lebih rendah.</text>
+<text x="119" y="423" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Pada sesi dengan waktu layar lebih lama.</text>
+<rect x="24" y="448" width="342" height="76" rx="18" fill="#FFFFFF" stroke="#E7DDF1"/>
+<rect x="33" y="457" width="72" height="58" rx="13" fill="#6632BC"/>
+<text x="69" y="483" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="middle">—</text>
+<text x="69" y="500" fill="#F2EAFF" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">rata-rata</text>
+<text x="119" y="472" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="start">Suhu malam</text>
+<text x="119" y="491" fill="#443453" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Data suhu belum tersedia.</text>
+<text x="119" y="509" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Sumber: Open-Meteo</text>
+</g>
+<rect x="24" y="541" width="342" height="86" rx="18" fill="#E2F5FF"/>
+<text x="40" y="566" fill="#235579" font-family="Nunito, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">Cara membaca hasil</text>
+<text x="40" y="588" fill="#235579" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Hasil menunjukkan kecenderungan dalam data.</text>
+<text x="40" y="605" fill="#235579" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Pola ini tidak membuktikan sebab-akibat.</text>
+</g>
+</g>
+</g>
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-24" transform="translate(470 6224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">23   Wawasan - Data Belum Cukup</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<text x="26" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">9:41</text>
+<text x="365" y="31" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">▮▮▮  ▰</text>
+<path d="m35 58-8 8 8 8m-8-8h16" fill="none" stroke="#6632BC" stroke-width="2" stroke-linecap="round"/>
+<text x="55" y="74" fill="#25183C" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Wawasan tidur</text>
+<g data-role="toast">
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="8"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="#3E2B5A" stroke="#FFFFFF" stroke-opacity=".94" stroke-width="1.25"/>
+<text x="39" y="119" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="12">Perlu 7 sesi dengan catatan faktor.</text>
+</g>
+
+<g data-role="bottom-navigation">
+<path d="M36 755H144c10 0 13-5 18-12 8-12 19-17 33-17s25 5 33 17c5 7 8 12 18 12h108a24 24 0 0 1 24 24v22a24 24 0 0 1-24 24H36a24 24 0 0 1-24-24v-22a24 24 0 0 1 24-24Z" fill="#FFFFFF" stroke="#D8CCE7"/>
+<path transform="translate(67 768)" d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="79" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Catat Tidur</text>
+<path transform="translate(299 768)" d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z M4 21a8 7 0 0 1 16 0" fill="none" stroke="#62536F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311" y="805" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Profil</text>
+<circle cx="195" cy="750" r="28" fill="#6632BC" stroke="#FFFFFF" stroke-width="3"/>
+<path transform="translate(183 738)" d="M4 20h16M6 16v-4m6 4V5m6 11V9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="805" fill="#6632BC" font-family="Nunito, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Dashboard</text>
+</g>
+</g>
+<g id="layar-25" transform="translate(898 6224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">24   Login / Registrasi - Gagal Masuk</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<rect x="0" y="0" width="390" height="359" rx="34" fill="url(#tracker-sky)"/>
+<text x="24" y="34" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#FFFFFF">9:41</text><path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/><rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#FFFFFF"/><rect x="363" y="28" width="8" height="4" rx="1" fill="#FFFFFF"/>
+<path d="m38 62-8 8 8 8m-8-8h16" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="77" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle" fill="#FFFFFF">TidurKu</text>
+<path d="m75 151 5 11 11 5-11 5-5 11-5-11-11-5 11-5zm236 39 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#CDB6FF"/><g fill="#CDB6FF" opacity=".7"><circle cx="106" cy="119" r="2"/><circle cx="288" cy="120" r="2"/><circle cx="47" cy="267" r="2"/><circle cx="342" cy="264" r="2"/></g>
+<g data-role="auth-illustration" transform="translate(114 146) scale(0.60)">
+      <ellipse cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25"/>
+      <path d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)"/>
+      <g fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)"/><circle cx="84" cy="166" r="7"/><circle cx="155" cy="215" r="8"/></g>
+      <path d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC"/>
+      <path d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF"/>
+      <circle cx="174" cy="180" r="4" fill="#59DCE8"/><circle cx="147" cy="188" r="3" fill="#6632BC"/>
+      <path d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF"/>
+      <path d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183"/>
+      <ellipse cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF"/>
+      <path d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA"/><ellipse cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA"/>
+      <path d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A"/>
+      <path d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8"/>
+      <circle cx="242" cy="119" r="3" fill="#FFC75A"/>
+    </g>
+<rect x="0" y="297" width="390" height="547" rx="32" fill="#FFFFFF"/>
+<text x="24" y="345" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start" fill="#25183C">Masuk</text>
+<text x="24" y="373" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Lanjut lihat catatan dan pola tidurmu.</text>
+<text x="24" y="407" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Email</text><rect x="24" y="415" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="443" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">nama@contoh.id</text>
+<text x="24" y="474" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Kata sandi</text><rect x="24" y="482" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="510" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Masukkan kata sandi</text><path d="M325 33q8-10 16 0-8 10-16 0Zm8-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" transform="translate(0 471)" fill="none" stroke="#62536F" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="24" y="575" width="342" height="52" rx="26" fill="#6632BC"/><text x="195" y="608" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#FFFFFF">Masuk</text>
+<text x="195" y="657" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#6632BC">Belum punya akun? Daftar</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+<g data-role="toast">
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="8"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="#3E2B5A" stroke="#FFFFFF" stroke-opacity=".94" stroke-width="1.25"/>
+<text x="39" y="119" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="12">Email atau kata sandi belum sesuai.</text>
+</g>
+</g>
+<g id="layar-26" transform="translate(1326 6224)">
+<text x="0" y="-15" fill="#FFFFFF" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">25   Login / Registrasi - Email Terdaftar</text>
+<rect x="0" y="0" width="390" height="844" rx="34" fill="#FBF8FF"/>
+<rect x="0" y="0" width="390" height="359" rx="34" fill="url(#tracker-sky)"/>
+<text x="24" y="34" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#FFFFFF">9:41</text><path d="M332 35v-4m4 4v-7m4 7v-10m6 4q5-5 10 0m-8 3q3-3 6 0" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/><rect x="361" y="26" width="12" height="8" rx="2" fill="none" stroke="#FFFFFF"/><rect x="363" y="28" width="8" height="4" rx="1" fill="#FFFFFF"/>
+<path d="m38 62-8 8 8 8m-8-8h16" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="77" font-family="Nunito, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle" fill="#FFFFFF">TidurKu</text>
+<path d="m75 151 5 11 11 5-11 5-5 11-5-11-11-5 11-5zm236 39 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#CDB6FF"/><g fill="#CDB6FF" opacity=".7"><circle cx="106" cy="119" r="2"/><circle cx="288" cy="120" r="2"/><circle cx="47" cy="267" r="2"/><circle cx="342" cy="264" r="2"/></g>
+<g data-role="auth-illustration" transform="translate(114 146) scale(0.60)">
+      <ellipse cx="140" cy="123" rx="118" ry="53" transform="rotate(-17 140 123)" fill="none" stroke="#CDB6FF" opacity=".25"/>
+      <path d="M107 19a106 106 0 1 0 140 137A91 91 0 0 1 107 19Z" fill="url(#tracker-moon)"/>
+      <g fill="#A44999" opacity=".38"><ellipse cx="66" cy="126" rx="10" ry="17" transform="rotate(-23 66 126)"/><circle cx="84" cy="166" r="7"/><circle cx="155" cy="215" r="8"/></g>
+      <path d="M102 158q63-52 100 3l-14 36q-44 24-86-14Z" fill="#6632BC"/>
+      <path d="M103 173q54 22 92-10l-10 33q-41 20-82-12Z" fill="#CDB6FF"/>
+      <circle cx="174" cy="180" r="4" fill="#59DCE8"/><circle cx="147" cy="188" r="3" fill="#6632BC"/>
+      <path d="M105 118Q84 109 88 81q18-2 34 22m28-4q11-25 32-22 9 26-15 44" fill="#FFD5BF"/>
+      <path d="M100 104l-5-15q10 1 18 15m43-3q8-13 20-16l-3 19" fill="#FFA183"/>
+      <ellipse cx="135" cy="136" rx="46" ry="35" fill="#FFD5BF"/>
+      <path d="M106 136q7 8 14 0m27 0q7 8 14 0m-30 9 5 3 4-3" fill="none" stroke="#30185A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="107" cy="148" rx="7" ry="4" fill="#FFA1AA"/><ellipse cx="162" cy="148" rx="7" ry="4" fill="#FFA1AA"/>
+      <path d="m224 53 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#FFC75A"/>
+      <path d="m35 45 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z" fill="#59DCE8"/>
+      <circle cx="242" cy="119" r="3" fill="#FFC75A"/>
+    </g>
+<rect x="0" y="297" width="390" height="547" rx="32" fill="#FFFFFF"/>
+<text x="24" y="345" font-family="Nunito, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="start" fill="#25183C">Buat akun</text>
+<text x="24" y="373" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Usia membantu menyiapkan target awal.</text>
+<text x="24" y="407" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Nama</text><rect x="24" y="415" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="443" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Nama lengkap</text>
+<text x="24" y="474" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Email</text><rect x="24" y="482" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#9F2358"/><text x="39" y="510" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">nama@contoh.id</text>
+<text x="24" y="541" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Kata sandi</text><rect x="24" y="549" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="577" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Masukkan kata sandi</text><path d="M325 33q8-10 16 0-8 10-16 0Zm8-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" transform="translate(0 538)" fill="none" stroke="#62536F" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="24" y="608" font-family="Nunito, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#25183C">Usia</text><rect x="24" y="616" width="342" height="44" rx="13" fill="#FBF8FF" stroke="#D8CCE7"/><text x="39" y="644" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#62536F">Contoh: 21</text><path d="M296 627v23" stroke="#D8CCE7"/><text x="351" y="644" fill="#62536F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">tahun</text>
+<rect x="24" y="682" width="342" height="52" rx="26" fill="#6632BC"/><text x="195" y="715" font-family="Nunito, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#FFFFFF">Daftar</text>
+<text x="195" y="767" font-family="Nunito, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#6632BC">Sudah punya akun? Masuk</text>
+<rect x="133" y="820" width="124" height="4" rx="2" fill="#D8CCE7"/>
+<g data-role="toast">
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="8"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4"/>
+<rect x="24" y="94" width="342" height="40" rx="12" fill="#3E2B5A" stroke="#FFFFFF" stroke-opacity=".94" stroke-width="1.25"/>
+<text x="39" y="119" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="12">Email sudah terdaftar.</text>
+</g>
+</g>
+</svg>
